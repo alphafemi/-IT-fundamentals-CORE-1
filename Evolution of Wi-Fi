@@ -1,0 +1,42 @@
+⭕ Wireless Networking Standards: Evolution of Wi-Fi
+
+IEEE {Institute of Electrical and Electronics Engineers} 802.11 Standards {Wi-Fi} was developed by IEEE LAN/MAN standards committee, define wireless local area network (WLANS) commonly known as Wi-Fi.
+
+✴️ IEEE 802.11 Wi-Fi Standards: A Timeline of Innovation
+Each iteration builds on the last, balancing frequency bands, speed, and real-world performance. Key factors: 2.4GHz for range (but crowded/interference-prone) vs. 5GHz for speed (shorter range due to absorption).
+
+*️⃣ 802.11a (1999)
+❇️ Frequency: 5GHz
+✳️ Max Speed: 54Mbps
+Key Features: Operates in the less congested 5GHz band for cleaner signals, but shorter range as signals get absorbed by walls/objects. Great for early high-speed needs in open spaces.
+
+*️⃣ 802.11b (1999)
+❇️ Frequency: 2.4GHz
+✳️ Max Speed: 11Mbps
+Key Features: Longer range than 802.11a—2.4GHz signals bounce off obstacles rather than being absorbed. Backward compatible but slow by today's standards; prone to microwave/interference issues.
+
+802.11g (2003)
+❇️ Frequency: 2.4GHz
+✳️ Max Speed: 54Mbps
+Key Features: Matches 802.11a's speed while keeping 2.4GHz's range. Supports mixed networks (with b/a devices), bridging old and new for smoother upgrades.
+
+*️⃣ 802.11n (Wi-Fi 4, 2009)
+❇️ Frequency: Dual band (2.4GHz & 5GHz simultaneous, if AP supports)
+✳️ Max Speed: 600Mbps (with 4 streams, 40MHz channels)
+Key Features: Introduced MIMO (Multiple Input, Multiple Output)—uses multiple antennas for parallel data streams, boosting throughput and range. A game-changer for streaming and multitasking.
+
+*️⃣ 802.11ac (Wi-Fi 5, 2013)
+❇️ Frequency: 5GHz only (2.4GHz via fallback to 802.11n)
+✳️ Max Speed: 6.9Gbps (with 8 streams, 160MHz channels)
+Key Features: Builds on MIMO with MU-MIMO (Multi-User MIMO), allowing simultaneous data to multiple devices (e.g., your phone and laptop at once). Ideal for bandwidth-hungry apps like 4K video.
+802.11ax (Wi-Fi 6, 2019)
+
+*️⃣ Frequency: Dual band (2.4GHz & 5GHz simultaneous, if supported)
+❇️ Max Speed: 9.6Gbps (with 8 streams, 160MHz channels)
+✳️ Key Features: Introduces OFDMA (Orthogonal Frequency Division Multiple Access) for better efficiency in crowded spots (e.g., stadiums, offices, trade shows). Reduces latency, improves battery life on devices, and handles IoT hordes—perfect for secure, dense environments.
+
+#WiFiStandards
+#NetworkingBasics
+#Cybersecurity 
+#ITFundamentals 
+#WirelessTech
