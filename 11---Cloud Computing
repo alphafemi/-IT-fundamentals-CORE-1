@@ -1,0 +1,35 @@
+🌩️🌩️ Understanding Cloud Computing 🌩️🌩️
+The cloud refers to computing resources and services—such as storage, servers, applications, and more—that are hosted and delivered over the internet rather than being kept on local computers or data centers.
+It’s more than just “off-site computing.” The cloud enables on-demand access, global scalability, and cost efficiency for individuals and organizations.
+
+⚙️ How Cloud Computing Works⚙️⚙️
+When deploying new applications, cloud systems can automatically create and manage all needed components (e.g., web servers, databases, and application servers).
+Applications can be deployed across multiple data centers worldwide—for example, in the U.S., Europe, or Asia—allowing access from locations closest to users
+
+🏠 Types of Cloud Deployment Model
+✴️ Private Cloud: Built and owned by a single organization within their data center; not shared externally.
+✴️ Public Cloud: Provided by third parties (e.g., Amazon, Microsoft, Rackspace); accessible to anyone; scalable and cost-effective.
+✴️ Hybrid Cloud: Combines private and public clouds; e.g., internal resources for sensitive data, public for overflow or global access.
+✴️ Community Cloud: Shared by multiple organizations with similar goals; reduces costs by pooling resources for a private-like setup.
+
+🧱 Cloud Service Models🧱
+There are three main types of cloud service models, each providing different levels of control and management:
+
+📛 Infrastructure as a Service (IaaS): Provides raw hardware resources (e.g., servers, storage, networking); the user manages OS, applications, and data.
+❇️ Example: Hosting a web server on Amazon EC2; the user deploys their own software.
+✳️ User Responsibility: OS, middleware, runtime, data, applications.
+
+📛 Platform as a Service (PaaS):
+ Offers a platform for building applications; includes tools and frameworks; the user focuses on app development and data.
+❇️ Example: Salesforce.com for custom app building with pre-built modules.
+✳️ User Responsibility: Applications and data.
+
+📛 Software as a Service (SaaS): Fully managed applications delivered over the internet; no installation or maintenance needed.
+❇️ Examples: Google Mail, Microsoft 365; the user just logs in and uses.
+✳️ User Responsibility: Minimal (e.g., data input); provider handles everything else.
+
+#CloudComputing
+#IaaS
+#PaaS
+#SaaS
+#TechCloud
