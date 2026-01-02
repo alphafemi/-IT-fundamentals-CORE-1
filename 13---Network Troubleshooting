@@ -1,0 +1,31 @@
+🌐 📶 Network Troubleshooting Methodology🛜 
+1. The Systematic Troubleshooting Process
+ ⚙️ Physical Link Check---Confirms a physical layer connection. No light indicates a bad cable, loose connection, or faulty port.
+⚙️ Local IP Stack Test---Verifies the network software on your own computer is functioning correctly.
+ ⚙️ Local IP Address Test ---Confirms the network interface card (NIC) is responding on the local network.
+ ⚙️ Local Network Test (ping your default gateway (router)) ---Tests communication within your immediate local network (LAN).
+ ⚙️ Remote Network Test (ping an external address) ---Tests connectivity beyond your local router to the wider internet.
+
+2. Common Network Issues 
+⚙️ Limited or No Connectivity ("Cannot access the internet; may have a (APIPA) address). DHCP failure. Check DHCP server, restart the device, or try a static IP.
+⚙️ Slow Performance (Applications are sluggish, files transfer slowly). Local device (CPU, RAM), network congestion, slow server, or a slow link. Use speed tests and check device resource usage.
+⚙️ High Latency & Jitter (Choppy audio/video calls, lag in real-time applications). Network congestion, distance, or insufficient bandwidth. Upgrade equipment/internet plan, use QoS.
+⚙️ Intermittent Connectivity (Port Flapping) (Link light flashes on and off repeatedly).Faulty cable or network port. Replace the cable or try a different switch port.
+⚙️ Wireless Issues (Weak signal, dropped connections, slow speeds). Distance from AP, interference (microwaves, other networks), incorrect channel. Move closer, change AP channel, reduce interference.
+⚙️ Authentication Problems ("Access Denied" errors, unable to log into resources).Incorrect credentials, expired sessions, or misconfigured permissions. Verify username/password and check with system administrator.
+
+3.Advanced Diagnostic Tools:
+📛 Speed Test: Measures bandwidth (throughput) to and from an internet server, helping to confirm if your internet connection is performing as expected.
+📛 Packet Capture (e.g., Wireshark): Provides undeniable, granular data on network traffic. Essential for diagnosing complex application-level issues, authentication problems, and intermittent faults.
+📛 ping & traceroute: Fundamental tools to test connectivity and map the path to a destination, identifying where delays or failures occur.
+📛 Signal-to-Noise Ratio (SNR): A wireless metric comparing the strength of your signal to the level of background interference. A high SNR is good (strong signal, low noise). A low SNR (high noise) causes poor performance and disconnections.
+
+4. Troubleshooting Intermittent Problems
+⚙️ Continuous Monitoring: Run a continuous ping to log timeouts and latency spikes.
+⚙️ Involve Third Parties: For issues with external services, work with your ISP or cloud provider and refer to your Service Level Agreement (SLA) for support expectations.
+
+#NetworkTroubleshooting
+#WiFiFix
+#TechMethodology
+#ITSupport
+#Connectivity
