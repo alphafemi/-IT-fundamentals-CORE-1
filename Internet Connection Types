@@ -1,0 +1,53 @@
+⭕ Internet Connection Types
+
+✴️ Satellite Networking
+Internet via satellite dish communicating with satellites in Low Earth Orbit (LEO)
+*️⃣ Speed & Latency
+~50 Mbps download, 3 Mbps upload; latency ~250ms (newer systems 20-40ms)
+*️⃣ Key Characteristics & Use Cases
+High latency, suitable for rural/remote areas, expensive, e.g., Starlink
+
+✴️ Fiber Optic
+High-speed internet using fiber optic cables transmitting data as light signals
+*️⃣ Speed & Latency
+Very high speeds (up to 1 Gbps+), low latency
+*️⃣ Key Characteristics & Use Cases
+Fast, reliable, cost-effective for urban and enterprise use
+
+✴️ Cable Broadband
+Internet over coaxial cables (cable TV infrastructure) using DOCSIS standard.
+*️⃣ Speed & Latency
+Up to 1 Gbps or higher (provider-dependent)
+*️⃣ Key Characteristics & Use Cases
+Shared bandwidth, widely available in urban/suburban areas.
+
+✴️ DSL (Digital Subscriber Line)
+Internet over existing copper telephone lines, typically ADSL (asymmetric)
+*️⃣ Speed & Latency.
+Up to 200 Mbps download, 20 Mbps upload; limited to ~10,000 ft from exchange.
+*️⃣ Key Characteristics & Use Cases.
+Distance-limited, slower upload speeds, common in older infrastructure.
+
+✴️ Cellular Network
+Internet via mobile networks (4G, 5G) using phones or dedicated devices
+*️⃣ Speed & Latency
+Varies widely; 5G offers multi-Gbps speeds, low latency
+*️⃣ Key Characteristics & Use Cases
+Mobile, supports tethering/hotspots, growing 5G adoption
+
+✴️ WISP (Wireless Internet Service Provider)
+Internet delivered wirelessly from ground stations (not satellites) using 802.11, 5G, or proprietary tech
+*️⃣ Speed & Latency
+Varies; depends on tech and environment
+*️⃣ Key Characteristics & Use Cases
+Focus on rural/local wireless coverage, requires external antennas
+
+KEY POINT
+📛 Satellite: Best for remote areas but suffers from high latency and cost.
+📛 Fiber: Fastest, most reliable, ideal for high-demand users.
+📛 Cable: High speed but shared bandwidth can cause congestion.
+📛 DSL: Limited by distance, slower upload speeds.
+📛 Cellular: Mobile, flexible, with 5G promising very high speeds.
+📛 WISP: Wireless alternative for rural/local areas without wired infrastructure.
+
+#NetworkingBasics #InternetConnections #Cybersecurity #ITFundamentals #WirelessNetworking
