@@ -1,0 +1,29 @@
+🖥️ Virtualization: Running Worlds Within Worlds! 🌐
+Virtualization is a technology that allows you to run multiple, isolated operating systems (called Virtual Machines or VMs) simultaneously on a single physical computer.
+Virtualization is managed by a hypervisor. It's the backbone of cloud efficiency and modern IT.
+🔄 Core Concept: Multiple 'guest' operating systems on a single host, each with virtual CPU, memory, network, and storage.
+🏠 Types:
+✴️ Virtual Machine (VM): A software-based emulation of a physical computer, with its own virtual CPU, memory, network interface, and storage.
+
+✴️ Host-Based Virtualization: Primary OS (host) runs a program (e.g., VMware, VirtualBox) for guests. Ideal for desktops/laptops.
+
+🖥️ Hypervisor:
+Software that abstracts the physical hardware and allocates resources (CPU, memory, network) to VMs.
+✳️ Type 1 (Bare-Metal): Direct on hardware (e.g., ESXi, Hyper-V)—efficient for data centers.
+✳️ Type 2 (Hosted): Runs on host OS (e.g., Workstation, Parallels)—common for personal use.
+
+🧠 Virtual Desktop Infrastructure (VDI/DaaS):
+ Also called Desktop as a Service (DaaS), this technology allows a complete desktop environment to run as a virtual machine on a remote server (often in the cloud).
+❗ The user interacts with the desktop via the network.
+❗ The local device only needs a keyboard, mouse, and display
+
+📦 Containerization (Application Virtualization)
+Containerization is a lighter-weight alternative to VMs, virtualizing at the application level instead of the hardware level.
+❗ All containers share a single host operating system and kernel.
+❗ Each container runs an isolated application, with its own environment and libraries.
+
+#Virtualization 
+#VM
+#Hypervisor
+#VDI
+#Containerization
