@@ -1,0 +1,42 @@
+Mobile Device Networks Documentation
+Mobile devices rely on various network technologies for connectivity, from cellular networks to wireless options. This guide covers cellular technologies (3G, 4G, 5G), Wi-Fi, hotspots, SIMs, Bluetooth, and GPS. These enable voice, data, and location services, keeping users connected globally.
+
+Cellular Network Technologies
+Cellular networks divide coverage areas into "cells" using antennas for voice and data communication.
+Overview: Antennas cover cells with different frequencies; users control data/voice via settings (e.g., airplane mode).
+3G (1998): Enabled larger data transfers; supported GPS, mobile TV, video conferencing, and data services.
+4G (LTE/GSM/EDGE): Up to 150 Mbps; expanded 3G capabilities.
+LTE Advanced (LTE-A): Up to 300 Mbps; further increased data throughput.
+5G (2020): Up to 10 Gbps (higher frequencies) or 100-900 Mbps; supports IoT with high bandwidth for fast notifications, cloud processing, and large data transfers.
+
+Wi-Fi Networking
+High-speed wireless networks for local connectivity.
+802.11 Standards: Provide voice, video, data transfer without wires; limited range via access points.
+Functionality: Enables voice calls over Wi-Fi if cellular signal is poor; supports various applications.
+Usage: Common at home/office; connects multiple devices to a local network.
+
+Hotspot Connectivity
+Turn mobile phones into internet routers for multiple devices.
+How It Works: Phone connects to cellular (e.g., 5G); other devices connect via Wi-Fi (802.11).
+Benefits: Portable internet access anywhere; built into phone OS.
+Considerations: Requires carrier enablement; may incur extra charges—check with provider.
+
+SIMs (Subscriber Identity Modules)
+Identify devices on cellular networks.
+Physical SIM: Card containing carrier/subscriber info (SIM ID, phone number, network details); stores contacts/messages; removable for device swaps.
+eSIM (Embedded SIM): Electronic, built-in; software-managed for transfers (e.g., via QR code); supports multiple profiles on one device.
+Management: Easier with eSIM; physical SIMs are small and require tools for handling.
+
+Bluetooth
+Short-range wireless for device pairing.
+Pairing Process: Enable Bluetooth on both devices; make discoverable; confirm PIN for security.
+Features: One-time pairing for automatic reconnection; supports headsets, speakers, etc.
+Variations: PIN may be fixed or dynamic; check device documentation for specifics.
+Testing: Power cycle devices to ensure auto-reconnection.
+
+GPS Satellites
+Global positioning for location services.
+Technology: US Department of Defense system using orbiting satellites; requires 4+ visible satellites for accuracy.
+Function: Determines longitude, latitude, altitude via signal differences.
+Alternatives: Wi-Fi networks or cellular triangulation for location if GPS fails.
+Usage: Powers maps, location apps; enhances navigation and services.
