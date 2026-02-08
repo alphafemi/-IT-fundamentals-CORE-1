@@ -1,0 +1,82 @@
+Common Ports Documentation
+Applications use well-known port numbers for network communication, crucial for troubleshooting, firewall configuration, and understanding protocols. This guide lists key ports for TCP/UDP, explains their protocols, and why they're important. Memorize these for A+ studies; they become intuitive with use.
+
+FTP (File Transfer Protocol)
+Ports: TCP 20 (active data), TCP 21 (control/admin).
+Purpose: Transfers files between devices; supports authentication (username/password or anonymous).
+Features: Lists directories, adds/deletes/renames files; full administration.
+Use: Generic file transfers across OSes.
+
+SSH (Secure Shell)
+Port: TCP 22.
+Purpose: Encrypted command-line access to remote devices.
+Comparison: Secure alternative to Telnet; encrypts all data.
+Use: Remote administration; preferred over insecure protocols.
+
+Telnet
+Port: TCP 23.
+Purpose: Unencrypted command-line access (deprecated).
+Issues: Data sent in clear text; insecure.
+Use: Legacy systems without SSH; avoid in modern networks.
+
+SMTP (Simple Mail Transfer Protocol)
+Port: TCP 25.
+Purpose: Sends emails between servers or from devices to servers.
+Use: Email transmission; configure on mail servers and clients.
+
+DNS (Domain Name System)
+Port: UDP 53.
+Purpose: Translates domain names (e.g., www.example.com) to IP addresses.
+Importance: Essential for browsing; multiple servers for redundancy.
+Use: Resolves FQDNs to IPs for network communication.
+
+DHCP (Dynamic Host Configuration Protocol)
+Ports: UDP 67 (server), UDP 68 (client).
+Purpose: Automatically assigns IP addresses, subnet masks, gateways, DNS servers.
+Process: Leases IPs from a pool; can reserve static IPs for devices.
+Use: Seamless network configuration; common in routers/servers.
+
+HTTP (Hypertext Transfer Protocol)
+Port: TCP 80.
+Purpose: Non-encrypted web communication.
+Use: Standard web browsing; increasingly replaced by HTTPS.
+
+HTTPS (Hypertext Transfer Protocol Secure)
+Port: TCP 443.
+Purpose: Encrypted web communication.
+Use: Secure browsing; encrypts data; preferred for modern sites.
+
+POP3 (Post Office Protocol Version 3)
+Port: TCP 110.
+Purpose: Downloads emails to local clients.
+Limitations: Basic; no multi-client sync.
+Use: Email retrieval.
+
+IMAP (Internet Message Access Protocol Version 4)
+Port: TCP 143.
+Purpose: Accesses emails on server; supports folders, multi-client sync.
+Advantages: Manages inboxes from multiple devices.
+Use: Advanced email access.
+
+SMB (Server Message Block) / CIFS (Common Internet File System)
+Ports: TCP 139 (NetBIOS), TCP 445 (direct/NetBIOS-less).
+Purpose: File/printer sharing in Windows; transfers data between Windows devices.
+Evolution: Older versions used NetBIOS (UDP 137 for name service); modern uses direct TCP 445.
+Use: Windows networking, file transfers.
+
+LDAP (Lightweight Directory Access Protocol)
+Port: TCP 389.
+Purpose: Accesses directory services/databases (e.g., user info, resources).
+Structure: Organized by OU (organizational unit), CN (common name).
+Use: Active Directory; authentication and lookups.
+
+LDAPS (Lightweight Directory Access Protocol Secure)
+Port: TCP 636 (or LDAP over SSL).
+Purpose: Secure LDAP with encryption.
+Use: Protected directory access.
+
+RDP (Remote Desktop Protocol)
+Port: TCP 3389.
+Purpose: Remote control of Windows desktops; view/share screens, run apps.
+Compatibility: Windows primary; clients for Mac, Linux, iOS, etc.
+Use: Troubleshooting, remote support.
