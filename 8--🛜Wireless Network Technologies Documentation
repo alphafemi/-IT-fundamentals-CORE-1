@@ -1,0 +1,41 @@
+Wireless Network Technologies Documentation
+Wireless technologies enable connectivity without cables, from home networks to personal devices. This guide covers 802.11 (Wi-Fi) standards, frequencies, channels, Bluetooth, RFID, and NFC. Understanding these helps in setup, troubleshooting, and security.
+
+    802.11 (Wi-Fi) Standards
+Wi-Fi networks standardized by IEEE 802.11 Committee; renamed for simplicity (e.g., Wi-Fi 5 for 802.11ac).
+Naming:
+802.11ac = Wi-Fi 5.
+802.11ax = Wi-Fi 6 (and Wi-Fi 6E for extended).
+802.11be = Wi-Fi 7.
+Frequencies: 2.4 GHz, 5 GHz, 6 GHz; devices may support multiple.
+Channels: Grouped frequencies for easy reference (e.g., Channel 6 = 2.437 GHz; Channel 44 = 5.220 GHz).
+Bandwidths: 20 MHz, 40 MHz, 80 MHz, 160 MHz for higher throughput.
+Spectrum Comparison:
+2.4 GHz: Limited channels (3 non-overlapping 20 MHz); prone to interference.
+5 GHz: More channels; supports wider bandwidths.
+6 GHz: Even more spectrum; ideal for high-performance networks.
+
+    Bluetooth
+Short-range wireless for personal devices.
+Frequency: 2.4 GHz (ISM band; unlicensed).
+Range: Up to 10 meters; for personal use (headsets, speakers).
+Pairing: Secure connection via PIN or automatic methods.
+Use: Connect peripherals without wires.
+
+  RFID (Radio Frequency Identification)
+Passive or active tags for identification and tracking.
+Function: Tags store ID codes; scanners power and read them.
+Types:
+Passive: No battery; powered by scanner (e.g., access badges, pet tags, product tracking).
+Active: Battery-powered; scannable from farther distances.
+Examples: Building access, inventory, assembly lines.
+Components: Antenna and chip; small size (e.g., rice-grain).
+
+  NFC (Near-Field Communication)
+Two-way short-range communication based on RFID.
+Range: Very close (e.g., 4 cm); for secure interactions.
+Uses:
+Mobile payments at POS terminals.
+Device pairing (e.g., Bluetooth/Wi-Fi setup).
+Access control (doors, identification).
+Advantage: Builds on RFID for bidirectional data exchange.
