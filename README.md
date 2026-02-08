@@ -23,9 +23,7 @@ What Core 1 Covers
 • Virtualization & Cloud Computing
 • Hardware & Network Troubleshooting
 
-Cost
-• ~$246 USD per exam
-• Discounts available via CompTIA Store Club, student pricing (do not sleep on this), or employers
+
 
 Career Paths A+ Helps Prepare You For
 • Help Desk Technician
