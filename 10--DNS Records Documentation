@@ -1,0 +1,77 @@
+DNS Records Documentation
+DNS (Domain Name System) is a critical service that translates fully qualified domain names (FQDNs) like www.professormesser.com into IP addresses. This guide covers key DNS records: A, AAAA, CNAME, MX, TXT, DKIM, SPF, and DMARC. These records store information in a distributed, hierarchical database, enabling global name resolution. Based on the transcript, it explains record types, configurations, and uses for web, email, and security.
+
+DNS Overview
+DNS resolves names to IPs, allowing easy access without memorizing addresses.
+
+Hierarchy: Root servers (13 clusters, ~1,000 servers) → Top-Level Domains (TLDs like .com, .org, country codes like .us) → Domains (e.g., professormesser.com) → Subdomains/Hosts.
+Distributed Database: Scattered globally; managed by ISPs, organizations, or providers.
+Tools:
+dig: Queries DNS servers (e.g., dig www.professormesser.com returns IPs).
+nslookup: Similar on Windows (e.g., nslookup professormesser.com).
+Resource Records (RR): Entries in DNS databases; changes require backups to avoid outages.
+
+    A Record (Address Record)
+Maps a hostname to an IPv4 address.
+
+Purpose: Resolves FQDNs to IPv4 IPs for devices.
+Example: www.professormesser.com → 162.159.246.164.
+Configuration: Hostname (e.g., www), IP address, TTL (Time to Live, e.g., 15 minutes for cache expiration).
+Use: Primary for IPv4 web servers; multiple A records enable redundancy (e.g., load balancing).
+
+    AAAA Record (Quad A Record)
+Maps a hostname to an IPv6 address.
+
+Purpose: Resolves FQDNs to IPv6 IPs.
+Example: Similar to A record but for longer IPv6 addresses.
+Configuration: Hostname, IPv6 address, TTL.
+Use: Essential for IPv6 networks; supports modern addressing.
+
+      CNAME Record (Canonical Name)
+Creates an alias for another hostname.
+
+Purpose: Points one name to another (e.g., aliases for a single server).
+Example: chat.example.com, ftp.example.com, www.example.com all point to mail.example.com.
+Configuration: Alias name, target canonical name.
+Use: Simplifies management; change the target A/AAAA record, and aliases update automatically.
+
+      MX Record (Mail Exchanger)
+Specifies mail servers for email routing.
+
+Purpose: Directs emails to the correct mail server.
+Example: professormesser.com MX → mail.professormesser.com → IP via A record.
+Configuration: Hostname (e.g., @ or blank for domain), target mail server, priority (lower number = higher priority), TTL.
+Use: Enables sending/receiving emails; multiple MX for redundancy.
+
+      TXT Record (Text Record)
+Stores human-readable text for verification or policies.
+
+Purpose: Holds arbitrary text; used for domain verification, spam prevention.
+Examples: Stripe verification, SPF, DKIM, DMARC.
+Configuration: Hostname, text content, TTL.
+Viewing: Use dig (e.g., dig professormesser.com TXT) or nslookup (e.g., nslookup -type=txt google.com).
+Use: Verifies ownership; supports email security.
+
+      DKIM (Domain Keys Identified Mail)
+Provides digital signatures for email authenticity.
+
+Purpose: Verifies emails originated from the domain using public/private key pairs.
+How It Works: Email server signs outgoing emails with private key; recipients check public key in DNS TXT record.
+Configuration: TXT record with v=DKIM1 and public key; hostname often provided by email server.
+Use: Prevents spoofing; ensures emails are from legitimate senders.
+
+      SPF (Sender Policy Framework)
+Lists authorized email servers for a domain.
+
+Purpose: Prevents spoofing by specifying valid outgoing servers.
+How It Works: Recipients check if the sending server is in the SPF TXT record.
+Configuration: TXT record with hostname (@) and list of servers (e.g., include:_spf.google.com).
+Use: Reduces spam; validates senders for domains using multiple servers.
+
+    DMARC (Domain-based Message Authentication, Reporting, and Conformance)
+Sets policies for handling failed email validations.
+
+Purpose: Defines actions for emails failing SPF/DKIM (e.g., quarantine, reject).
+How It Works: TXT record specifies policy (none, quarantine, reject) and reporting email.
+Configuration: TXT record with v=DMARC1, policy (p=quarantine), and rua=mailto:report@example.com.
+Use: Enhances email security; provides reports on dispositions.
