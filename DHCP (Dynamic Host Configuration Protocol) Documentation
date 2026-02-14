@@ -1,0 +1,48 @@
+DHCP (Dynamic Host Configuration Protocol) Documentation
+DHCP automatically assigns IP addresses and network settings to devices, eliminating manual configuration. This guide explains the DHCP process (DORA), scopes, pools, reservations, and configurations. Based on the transcript, it covers how DHCP works in modern networks, from discovery to acknowledgment.
+
+Overview of DHCP
+DHCP was created in 1997 to automate IP address assignment, replacing manual static configurations.
+
+Purpose: Assigns IP addresses, subnet masks, default gateways, DNS servers, and other settings automatically.
+Benefit: Essential for large networks; ensures seamless connectivity (e.g., at coffee shops or offices).
+Alternative: Static IPs for small networks, but DHCP scales better.
+
+    The DHCP Process (DORA)
+DORA (Discover, Offer, Request, Acknowledge) is the four-step process for assigning IPs.
+
+1. Discover: Client broadcasts a DHCP discover message (from 0.0.0.0, UDP port 68) to find DHCP servers.
+
+2. Offer: DHCP server responds with an offer (broadcast to 255.255.255.255, UDP port 67), suggesting an IP.
+
+3. Request: Client requests the offered IP (broadcast from 0.0.0.0, UDP port 68).
+
+4. Acknowledge: Server confirms assignment (broadcast to 255.255.255.255, UDP port 68), locking the IP for the lease duration.
+
+Example: Sam and Jack connect; both go through DORA, receiving unique IPs (e.g., 10.10.10.42 for Sam).
+
+Broadcasting: Used because clients lack IPs initially; switches forward broadcasts to all devices.
+
+      DHCP Scopes
+A scope defines the range of IPs and settings for a subnet.
+Components:
+IP Range: Available addresses (e.g., 192.168.1.0/24).
+Exclusions: Reserved IPs for static devices (e.g., routers, servers) to avoid conflicts.
+Options: Subnet mask, lease duration, DNS servers, default gateway, VoIP servers.
+Configuration: Set on DHCP server (e.g., Windows Server or router); applies to a subnet.
+
+      DHCP Pools
+Subsets of IPs within a scope for automatic assignment.
+Definition: Large groups of contiguous IPs (e.g., 192.168.1.2 to 192.168.1.254).
+Function: Server pulls from pool for dynamic assignments; can have multiple pools per scope.
+Exclusions: Reserve IPs in pools for specific devices.
+
+      DHCP Address Reservations
+Ensures devices always get the same IP, like static but managed centrally.
+Purpose: For servers, routers, printers needing consistent IPs; avoids manual static config.
+How It Works: Associate device's MAC address with a specific IP in DHCP server.
+Benefits: Easy updates via DHCP; no device reconfiguration needed.
+Example: Prometheus (MAC XX:XX:XX) always gets 192.168.1.6; Odyssey gets 192.168.1.9.
+Configuration Examples
+Windows Server: Use Server Manager to create scopes, pools, reservations, and options.
+Router (e.g., Home Router): Configure pool (e.g., 192.168.1.2-254) and reservations by MAC address.
