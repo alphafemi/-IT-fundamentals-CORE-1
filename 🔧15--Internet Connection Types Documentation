@@ -1,0 +1,59 @@
+Internet Connection Types Documentation
+Internet connections vary by technology, speed, and availability. This guide covers key types: cable, DSL, dial-up, fiber, satellite, ISDN, cellular, and T1/T3 lines. Based on the transcript, it explains each for home/business use, focusing on speeds, pros/cons, and suitability.
+
+    Cable
+Cable uses TV coax cables for broadband internet.
+
+Speeds: Up to 1 Gbps+; symmetric or asymmetric.
+Pros: High speed; reliable; often bundled with TV/phone.
+Cons: Shared bandwidth; speeds drop during peak times.
+Use: Homes/businesses with cable TV; common in urban areas.
+
+    DSL (Digital Subscriber Line)
+DSL runs over phone lines for digital internet.
+Speeds: Up to 100 Mbps down/10 Mbps up; depends on distance (max ~10,000 ft from central office).
+Pros: Uses existing phone lines; no dedicated cable needed.
+Cons: Slower than cable/fiber; speeds degrade with distance.
+Use: Rural/urban areas with phone service; good for moderate needs.
+
+    Dial-Up
+Dial-up connects via phone modem over analog lines.
+Speeds: 56 Kbps max; slow by modern standards.
+Pros: Uses existing phone lines; low cost.
+Cons: Very slow; ties up phone line; obsolete.
+Use: Backup or areas without broadband; rarely used today.
+
+    Fiber
+Fiber uses light over glass cables for ultra-fast internet.
+Speeds: 1 Gbps+; symmetric; up to 10 Gbps+.
+Pros: Fastest; reliable; future-proof.
+Cons: Expensive; limited availability.
+Use: Urban areas; businesses needing high bandwidth.
+
+    Satellite
+Satellite internet via orbiting satellites.
+Speeds: 25-100 Mbps; higher latency (500-1000 ms).
+Pros: Available anywhere with sky view; no ground infrastructure.
+Cons: High latency; weather-affected; data caps; expensive.
+Use: Rural/remote areas; backup for outages.
+
+    ISDN (Integrated Services Digital Network)
+ISDN provides digital phone/internet over copper lines.
+Speeds: 64-128 Kbps per channel; up to 2 Mbps with bonding.
+Pros: Reliable; simultaneous voice/data.
+Cons: Slower than modern options; expensive; being phased out.
+Use: Businesses needing stable connections; replaced by DSL/fiber.
+
+    Cellular
+Cellular uses mobile networks (3G/4G/5G) for internet.
+Speeds: 3G: 1-10 Mbps; 4G: 10-100 Mbps; 5G: 100 Mbps+.
+Pros: Mobile; widespread; no wires.
+Cons: Variable speeds; data limits; coverage gaps.
+Use: Mobile devices; hotspots; rural areas.
+
+    T1/T3 Lines
+T1/T3 are dedicated digital lines for businesses.
+Speeds: T1: 1.544 Mbps; T3: 44.736 Mbps.
+Pros: Dedicated; reliable; symmetric.
+Cons: Expensive; less common now.
+Use: Businesses; often replaced by fiber/cable.
