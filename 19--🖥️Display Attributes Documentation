@@ -1,0 +1,46 @@
+Display Attributes Documentation
+Displays vary in specifications like pixel density, refresh rates, resolution, and color gamut, impacting clarity, smoothness, sharpness, and color accuracy. This guide explains these attributes for selecting the best monitor for tasks like gaming, video editing, or general use. Based on the transcript, it covers calculations, standards, and comparisons.
+
+Pixel Density
+Pixel density measures pixels per inch (PPI) or per centimeter, indicating display clarity.
+Definition: Number of pixels in a 1-inch area; higher density = sharper image.
+Importance: Affects crispness; consider printing (DPI match) or viewing distance.
+Examples:
+1 PPI: 1 pixel per square inch.
+2 PPI: 2x2 pixels.
+4 PPI: 4x4 pixels.
+8 PPI: 8x8 pixels (much sharper).
+Calculation: Pixels ÷ inches (e.g., 27" 4K display: 3840 pixels wide / ~24" width = 160 PPI; 65" 4K: 3840 / ~57" = 67 PPI).
+Note: Same resolution on larger screens has lower PPI; choose based on use (e.g., high PPI for detailed work).
+
+Refresh Rates
+Refresh rate is the display's update frequency in hertz (Hz), affecting motion smoothness.
+Definition: Cycles per second; often equals frames per second (FPS) with V-sync enabled.
+Common Rates: 24 Hz (movies), 30 Hz (videos), 60+ Hz (gaming/sports).
+Visual Impact: Low rates (e.g., 1 FPS) cause choppy motion; high rates (30 FPS) are smooth.
+Use Cases: High refresh for fast-moving content; prevents stuttering.
+Hardware Considerations: Video card and connection (e.g., HDMI 2.1: 144 Hz at 4K; DisplayPort 2.1: 144 Hz dual 4K) must support the rate.
+
+Screen Resolution
+Resolution defines pixel count (width x height), determining sharpness and aspect ratio.
+
+Definition: Pixels horizontally and vertically; higher resolution = sharper image.
+Common Standards:
+HD: 1920x1080 (16:9 aspect ratio).
+4K: 3840x2160 (16:9; much sharper than HD on same size).
+Aspect Ratios: 16:9 common; choose based on content (e.g., widescreen for videos).
+Comparison: 4K looks crisper than HD; some displays have custom resolutions.
+Note: Resolution impacts pixel density; larger screens at same resolution have lower PPI.
+
+Color Gamut
+Color gamut is the range of displayable colors, measured against standards.
+
+Definition: Colors a display can show; human eye sees more than most displays.
+Importance: Critical for graphics/video editing; wider gamut = better color accuracy.
+Standards (CIE 1931 Color Space):
+sRGB: Standard for web/images; blue triangle in color space.
+Adobe RGB: Wider for print/graphics.
+DCI-P3/Rec. 709: For video/TV.
+Measurement: Percentages in specs (e.g., 100% sRGB, 98% DCI-P3).
+Comparison: OLEDs often have best gamut; LCDs vary (e.g., IPS with better blacks for higher %).
+Examples: Display A: 100% sRGB; Display B: 95% sRGB—choose based on use (e.g., 100% for editing).
