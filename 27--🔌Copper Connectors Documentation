@@ -1,0 +1,58 @@
+Copper Connectors Documentation
+Copper connectors enable connectivity for various devices using copper cables. This guide covers RJ11, RJ45, F-connectors, punchdown blocks, USB, USB-C, Molex, Lightning, and DB-9 connectors, their uses, and specs. Based on the transcript, it explains each for networking, power, and peripherals.
+
+RJ11
+RJ11 is a modular connector for telephone and DSL lines.
+Specs: 6-position, 2-conductor (6P2C); sometimes 4-conductor (RJ14, but called RJ11).
+Use: Analog phone lines; DSL internet; smaller than RJ45.
+Note: Easy to confuse with RJ45; check interfaces to avoid mistakes.
+
+RJ45
+RJ45 is a modular connector for Ethernet and other serial connections.
+Specs: 8-position, 8-conductor (8P8C); larger than RJ45.
+Use: Ethernet networks; serial connections; common for LANs.
+Note: Can't fit into RJ11; used in twisted-pair cabling.
+
+F-Connector
+F-connector is threaded for coaxial cable connections.
+Specs: Threaded; central copper conductor for signals.
+Use: Cable TV; cable modems (DOCSIS standard); secure screw-in connection.
+Note: Prevents accidental disconnection; used for broadband.
+
+Punchdown Blocks
+Punchdown blocks terminate twisted-pair wires in wiring closets.
+Specs: Metal contacts pierce wire insulation; no individual connectors needed.
+Use: Large installations; fast termination of UTP cables; connects to switches/VLANs.
+Process: Punch wires into block; maintains twists for signal integrity.
+Note: Inexpensive; supports high wire counts.
+
+USB Connectors
+USB connectors vary by version for data and power.
+Standard-A: Rectangular; for hosts (computers).
+Standard-B: Square; for peripherals (printers).
+Mini-B/Micro-B: Smaller; for mobiles (USB 1.1/2.0); USB 3.0 variants differ.
+Use: Universal for peripherals; versions 1.1-3.2 with increasing speeds.
+
+USB-C
+USB-C is a reversible, universal connector for multiple signals.
+Specs: Reversible; supports USB, Thunderbolt, HDMI, etc.
+Use: Modern devices; replaces older USB types; versatile for data/power/video.
+Note: Physical interface; signal depends on protocol.
+
+Molex
+Molex is a 4-pin power connector for internal peripherals.
+Specs: 4-pin; provides 12V/5V; friction-fit.
+Use: Older desktops; powers fans, drives; from PSU.
+Note: Named after Molex company; also called AMP Mate-n-Lok.
+
+Lightning
+Lightning is Apple's proprietary connector for iOS devices.
+Specs: Reversible; for data/power.
+Use: iPhones, iPads; replaced by USB-C in newer models.
+Note: Apple-only; provides charging/syncing.
+
+DB-9
+DB-9 is a 9-pin serial connector for legacy devices.
+Specs: 9-pin D-shaped; RS-232 standard (since 1969).
+Use: Serial communication; console ports on routers/switches; modems/mice in older systems.
+Note: Still used for device configuration; adapters to USB common.
