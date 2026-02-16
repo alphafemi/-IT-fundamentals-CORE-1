@@ -1,0 +1,50 @@
+Peripheral Connection Technologies Documentation
+Computers connect to peripherals via standardized interfaces for data transfer, power, and compatibility. This guide covers USB, USB-C, serial cables, and Thunderbolt technologies, their versions, speeds, connectors, and uses. Based on the transcript, it explains evolution from legacy serial to modern high-speed options.
+
+USB (Universal Serial Bus)
+USB is the standard for connecting peripherals like keyboards, mice, printers, and storage devices.
+
+Versions and Speeds:
+USB 1.1: Low speed (1.5 Mbps) up to 3m; full speed (12 Mbps) up to 5m.
+USB 2.0: High speed (480 Mbps) up to 5m.
+USB 3.0 (SuperSpeed): 5 Gbps up to 3m.
+USB 3.1: 10 Gbps.
+USB 3.2: 20 Gbps.
+
+Connectors:
+Standard-A: Rectangular; common for hosts (computers).
+Standard-B: Square; for peripherals (printers).
+Mini-B/Micro-B: Smaller; for mobile devices (USB 1.1/2.0).
+USB 3.0 variants: Updated Standard-B (taller) and Micro-B (different shape).
+Features: Hot-pluggable; provides power; backward compatible.
+Use: Everyday peripherals; data transfer and charging.
+
+USB-C
+USB-C is a reversible, universal connector replacing older USB types for versatility.
+
+Design: Small, reversible (no orientation needed); similar size to Micro-B.
+Purpose: Physical interface for various signals (USB, Thunderbolt, etc.); not tied to one protocol.
+Advantages: One connector for multiple uses; supports high speeds/power.
+Use: Modern devices (laptops, phones); enables USB 3.2, Thunderbolt, and more.
+
+Serial Cables
+Serial cables use RS-232 standard for legacy connections, common before USB.
+
+Standards: RS-232 (Recommended Standard 232, since 1969); sends data serially.
+Connectors:
+DB-9 (DE-9): 9-pin; common for PCs.
+DB-25: 25-pin; larger; for older devices.
+Use: Legacy equipment (routers, switches); console ports for configuration (e.g., RJ45 serial on modern devices).
+Adapters: USB-to-DB-9 for connecting to serial ports on computers without DB-9.
+Applications: Modem connections, keyboards/mice in early PCs; troubleshooting via console.
+
+Thunderbolt
+Thunderbolt provides high-speed data and power over a single cable, supporting daisy-chaining.
+
+Versions:
+Thunderbolt 1: 20 Gbps (2x 10 Gbps channels); uses Mini DisplayPort.
+Thunderbolt 2: 20 Gbps aggregated; Mini DisplayPort.
+Thunderbolt 3: 40 Gbps; uses USB-C; up to 3m (copper) or 60m (optical).
+Thunderbolt 4: 40 Gbps; dual 4K video; increased PCIe bandwidth; USB-C.
+Features: Data + power; daisy-chaining (e.g., computer → monitor → storage); hot-pluggable.
+Use: High-performance peripherals (external GPUs, monitors, storage); video editing, gaming.
