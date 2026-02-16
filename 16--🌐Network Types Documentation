@@ -1,0 +1,46 @@
+Network Types Documentation
+Networks are categorized by size, location, and purpose, enabling efficient communication. This guide covers LANs, WANs, PANs, MANs, SANs, and WLANs. Based on the transcript, it explains each type's characteristics, technologies, and applications for home, business, and global use.
+
+LAN (Local Area Network)
+LANs connect devices in a small, local area for high-speed communication.
+
+Characteristics: Close proximity (e.g., building floor or campus); high speeds via Ethernet or wired connections.
+Use: Homes, offices; fast data transfer within limited areas.
+Pros: Reliable, high bandwidth; easy management.
+Cons: Limited range; requires physical infrastructure.
+
+    WAN (Wide Area Network)
+WANs span large distances, connecting remote locations globally.
+Characteristics: Covers cities, countries, or continents; slower than LANs due to distance; uses technologies like MPLS, serial links, or satellites (terrestrial/non-terrestrial).
+Use: Corporate branches, internet connectivity; global communication.
+Pros: Connects dispersed sites; scalable.
+Cons: Higher latency, lower speeds; complex and costly.
+
+    PAN (Personal Area Network)
+PANs connect devices in close proximity to an individual.
+Characteristics: Short-range (e.g., Bluetooth, NFC, infrared); personal use.
+Examples: Wireless headsets, health devices, car audio integration.
+Use: Mobile accessories, wearable tech; hands-free communication.
+Pros: Convenient, low-power; no infrastructure needed.
+Cons: Very limited range; device-specific.
+
+    MAN (Metropolitan Area Network)
+MANs cover a city or metropolitan area, bridging LAN and WAN scales.
+Characteristics: City-wide; often uses Metro Ethernet or municipal fiber.
+Use: Connecting urban offices, government networks; standardized on Ethernet.
+Pros: Faster than WAN; cost-effective for local connectivity.
+Cons: Limited to metro areas; infrastructure-dependent.
+
+      SAN (Storage Area Network)
+SANs provide high-speed, dedicated storage access for large data transfers.
+Characteristics: Isolated network for storage devices; block-level access (feels like local storage); high-speed connections.
+Use: Data centers, enterprises; efficient for large files/databases.
+Pros: Fast, scalable storage; isolated for performance.
+Cons: Expensive; requires specialized hardware.
+
+    WLAN (Wireless Local Area Network)
+WLANs enable wireless connectivity within a local area using 802.11 standards.
+Characteristics: Extends LANs wirelessly; mobile access; expandable with access points.
+Use: Homes, offices, campuses; laptops, mobiles, IoT devices.
+Pros: Mobility, flexibility; easy setup.
+Cons: Security risks; interference; limited range without extenders.
