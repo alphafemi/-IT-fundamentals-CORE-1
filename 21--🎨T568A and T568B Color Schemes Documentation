@@ -1,0 +1,47 @@
+T568A and T568B Color Schemes Documentation
+Ethernet cabling uses standardized color schemes for consistency in wiring RJ45 connectors, ensuring global compatibility and ease of troubleshooting. This guide covers T568A and T568B standards from ANSI/TIA-568 and ISO/IEC 11801, their pinouts, differences, and applications. Based on the transcript, it emphasizes T568B's prevalence and the importance of consistency.
+
+Overview of T568A and T568B
+These schemes define wire colors and pin assignments for 8-conductor twisted pair cables (e.g., Cat 5e/6).
+
+Standards: Managed by TIA (US) via ANSI/TIA-568; international via ISO/IEC 11801.
+Purpose: Ensures consistent wiring worldwide; aids installation and troubleshooting.
+Connector: RJ45; both schemes use the same connector but different color orders.
+Common Usage: T568B is standard in the US and most places; organizations stick to one scheme for consistency.
+Warning: Never mix T568A and T568B on cable ends (not a valid crossover; causes connectivity issues).
+Pinouts and Color Schemes
+Each scheme assigns colors to pins 1-8; pairs are twisted for interference reduction.
+
+T568A
+Pin 1: White/Green
+Pin 2: Green
+Pin 3: White/Orange
+Pin 4: Blue
+Pin 5: White/Blue
+Pin 6: Orange
+Pin 7: White/Brown
+Pin 8: Brown
+T568B
+Pin 1: White/Orange
+Pin 2: Orange
+Pin 3: White/Green
+Pin 4: Blue
+Pin 5: White/Blue
+Pin 6: Green
+Pin 7: White/Brown
+Pin 8: Brown
+Key Differences and Similarities
+Differences: Pins 1/2 (Green/White-Green in A; Orange/White-Orange in B) and Pins 3/6 (Orange/White-Orange in A; Green/White-Green in B) swap.
+Similarities: Blue (Pins 4/5) and Brown (Pins 7/8) pairs are identical in both.
+Memorization Tip: Focus on swapped pairs; blue/brown remain the same.
+Identifying the Scheme
+Inspect cable wires to determine the scheme.
+
+Example Cable (T568B): Wires: White/Orange, Orange, White/Green, Blue, White/Blue, Green, White/Brown, Brown—matches T568B.
+Method: Flip cable; compare to pinouts. If Pin 1 is White/Orange, it's T568B; if White/Green, T568A.
+Tools: Use for crimping verification; adjust before crimping if mismatched.
+Applications and Jacks
+Crimping: Insert wires into RJ45 per scheme; check alignment before crimping.
+Keystone Jacks: May have color guides (e.g., A/B labels); internals map to correct RJ45 pins.
+Punch-Down Blocks: Follow scheme for termination; maintain twists for signal integrity.
+Consistency: Use one scheme per installation; T568B preferred for new setups.
