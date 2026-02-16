@@ -1,0 +1,48 @@
+Video Connection Technologies Documentation
+Monitors and displays connect to computers via various interfaces for video (and sometimes audio) transmission. This guide covers HDMI, DisplayPort, DVI, VGA, and video over USB-C, including their specs, connectors, and uses. Based on the transcript, it explains digital vs. analog, compatibility, and modern trends.
+
+Overview
+Video connections have evolved from analog (VGA) to digital (HDMI, DisplayPort), supporting higher resolutions and audio. Choose based on device compatibility, resolution needs, and cable length. USB-C enables versatile, multi-signal connections.
+
+HDMI (High Definition Multimedia Interface)
+HDMI is a common digital interface for audio and video in consumer electronics.
+
+Specs: Digital; supports audio/video; max 20m range; resolutions up to 4K/8K.
+Connector: 19-pin Type A; rectangular with indented corners; prevents misinsertion.
+Features: Sends uncompressed audio/video; backward compatible with some standards.
+Use: Monitors, TVs, gaming; common on modern devices.
+
+DisplayPort
+DisplayPort is a digital interface for high-performance video, similar to HDMI but packetized.
+
+Specs: Digital; supports audio/video; resolutions up to 8K; max range varies (up to 15m with active cables).
+Connector: Rectangular with slanted corner; locking mechanism (press button to release); mini DisplayPort for smaller devices.
+Features: Compatible with HDMI/DVI via passive adapters; packetized like Ethernet.
+Use: PCs, high-end monitors; supports daisy-chaining and multi-monitor setups.
+
+DVI (Digital Visual Interface)
+DVI is a digital (and sometimes analog) interface, common on older systems.
+
+Specs: Digital (DVI-D) or analog (DVI-A); video-only (no audio); single-link: 3.7 Gbps (1920x1200); dual-link: higher bandwidth.
+Connectors:
+DVI-A: Analog; compatible with VGA.
+DVI-D: Digital; single/dual-link.
+DVI-I: Integrated (analog + digital).
+Features: Backwards-compatible with VGA; no audio.
+Use: Older monitors/graphics cards; transitioning to HDMI/DisplayPort.
+
+VGA (Video Graphics Array)
+VGA is a legacy analog interface for video-only transmission.
+
+Specs: Analog; video-only; max 5m range; resolutions up to 2048x1536 (limited by signal degradation).
+Connector: DE-15 (DB-15); 15-pin D-shaped; often blue.
+Features: Standardized colors per PC guidelines; no audio.
+Use: Legacy equipment; replaced by digital interfaces for better quality.
+
+Video over USB-C
+USB-C enables versatile video transmission alongside other signals.
+
+Specs: Depends on protocol (e.g., DisplayPort over USB-C: up to 8K; HDMI: 4K); supports video, audio, power, data.
+Connector: Reversible USB-C; signals include USB, Thunderbolt, DisplayPort, HDMI, MHL.
+Features: Multi-purpose; one cable for video, power, and data; adapters for specific protocols.
+Use: Modern laptops/phones; universal for docking stations and peripherals.
