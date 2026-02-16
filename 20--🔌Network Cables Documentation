@@ -1,0 +1,48 @@
+Network Cables Documentation
+Network cables form the backbone of wired connectivity, enabling high-speed data transfer for Ethernet networks. This guide covers twisted pair cables, categories, coaxial, unshielded vs. shielded types, direct burial STP, and plenum-rated cables. Based on the transcript, it explains construction, interference mitigation, standards, and applications for reliable installations.
+
+Twisted Pair Cables
+Twisted pair is the most common copper cable for Ethernet, with wires twisted to reduce interference.
+
+Construction: Four pairs of wires (blue, green, orange, brown); each pair twisted at different rates to cancel noise.
+How It Works: Signals on pairs (e.g., Transmit+ and Transmit-) counteract interference; receiver distinguishes signal from noise.
+Use: Wired Ethernet; foundation for LANs; supports various speeds based on category.
+
+Cable Categories and Standards
+Categories define cable performance; minimum category required for Ethernet standards per IEEE 802.3.
+Cat 5: Deprecated; supports 1000BASE-T (1Gbps) up to 100m.
+Cat 5e (Enhanced): Improved testing; supports 1000BASE-T up to 100m; common for new installs.
+Cat 6: Supports 10GBASE-T (10Gbps) up to 55m (unshielded) or 100m (shielded).
+Cat 6A (Augmented): Supports 10GBASE-T up to 100m.
+Note: Cable speed depends on signaling, not the cable itself; always check IEEE standards for compatibility.
+
+Coaxial Cable
+Coaxial (coax) uses a central conductor with outer shield for high-frequency signals.
+Construction: Inner conductor for signal; outer shield for protection.
+Use: Cable modems/digital cable; high-speed internet over cable infrastructure.
+Not Primary for Ethernet: Less common than twisted pair for LANs.
+
+Unshielded vs. Shielded Twisted Pair (UTP vs. STP)
+
+Shielding protects against electromagnetic interference (EMI); choice depends on environment.
+UTP (Unshielded Twisted Pair): No shielding; cost-effective; suitable for low-interference areas.
+STP (Shielded Twisted Pair): Shielding around pairs or entire cable; better for high-EMI environments (e.g., industrial).
+Abbreviations:
+U/UTP: Unshielded overall, unshielded pairs.
+S/FTP: Braided shield overall, foil on pairs.
+F/UTP: Foil shield overall, unshielded pairs.
+Example: Cat 7 S/FTP has braided outer shield and foil on each pair.
+Use: STP for interference-prone areas; UTP for standard office/home.
+
+Direct Burial STP Cable
+Specialized STP for underground installations between buildings.
+Construction: Shielded pairs; waterproof gel; drain wire for grounding/strength.
+Features: Waterproof; no conduit needed; buried directly in ground.
+Use: Campus networks; protects against moisture/interference; easier than overhead runs.
+
+Plenum-Rated Cable
+Fire-resistant cables for spaces above drop ceilings (plenum areas).
+Context: Plenum space allows air circulation; fire/smoke can spread easily.
+Construction: Jacket of FEP (Fluorinated Ethylene Polymer) or low-smoke PVC; less flexible than standard PVC.
+Use: Commercial buildings; above drop ceilings; meets fire safety codes; functionally identical to standard cable but safer.
+Importance: Prevents fire/smoke spread; required in plenum environments.
