@@ -1,0 +1,67 @@
+Network Devices Documentation
+Data centers and networks rely on various devices to manage traffic, security, and connectivity. This guide covers key network devices: routers, switches (unmanaged/managed), access points, patch panels, firewalls, Power over Ethernet (PoE), cable/DSL modems, ONTs, and NICs. Based on the transcript, it explains their functions, types, and roles in building networks.
+
+
+    Routers
+Routers forward traffic between IP subnets based on destination IP addresses.
+Function: Use routing tables to decide packet paths; operate at OSI Layer 3.
+Features: Connect different network types (e.g., Ethernet to wireless, fiber to copper).
+Types: Standalone or combined with switches (Layer 3 switches); used for inter-VLAN routing.
+Use: Essential for subnet communication; often include security features.
+
+
+        Switches
+Switches connect devices within a LAN, forwarding based on MAC addresses.
+Function: Hardware-based (ASIC) for high speed; support multiple ports (e.g., 24/48 for workgroups, hundreds for cores).
+Features: May include PoE, routing (multilayer switches), VLANs, redundancy, port mirroring.
+--Types:
+Unmanaged Switches: Plug-and-play; no configuration; single VLAN; low cost; no SNMP/logging.
+Managed Switches: Configurable; support VLANs, traffic prioritization, redundancy, remote management (SNMP); for enterprises.
+      
+
+    Access Points
+Access points bridge wired and wireless networks.
+Function: Switch between Ethernet (wired) and Wi-Fi (wireless); forward based on MAC addresses (bridged, not routed).
+Use: Enable wireless connectivity; no IP translation.
+Difference from Routers: Not for routing; pure bridging.
+
+      Patch Panels
+Patch panels organize and manage Ethernet cables in wiring closets.
+Function: Terminate cables from desks (punch-down blocks); provide RJ45 ports for flexible connections to switches/VLANs.
+Benefits: Simplify cable management; change connections without rewiring runs.
+Setup: Permanent desk-to-closet cables; short patch cables for closet reconfiguration.
+      
+      Firewalls
+Firewalls control traffic based on rules for security.
+Function: Allow/block traffic by port (traditional) or application (next-gen).
+Features: VPN concentrator, proxy server, routing; protect against threats.
+Types: Hardware/software; integrated into routers for multi-interface management.
+Power over Ethernet (PoE)
+PoE delivers power and data over Ethernet cables.
+
+Function: Power devices (e.g., phones, access points, cameras) via Ethernet; simplifies installations.
+Standards:
+PoE: 15.4W, 350mA (basic devices).
+PoE+: 25.5W, 600mA (larger devices like PTZ cameras).
+PoE++: 51W/71.3W, 600/960mA (laptops, 10G Ethernet).
+Implementation: Endspan (switch-integrated) or midspan (injector); downward compatible but not upward.
+Benefits: Single cable for data/power; reduces wiring complexity.
+      
+
+    Cable and DSL Modems
+Modems connect to broadband internet via cable or phone lines.
+Cable Modems: Use coax (DOCSIS standard); provide Ethernet; high speeds (1G+); common for cable TV users.
+DSL Modems: Use phone lines; speeds up to 200Mbps down/20Mbps up; limited by distance (10,000 ft from central office).
+Use: Convert broadband signals to Ethernet for routers.
+
+      ONTs (Optical Network Terminals)
+ONTs convert fiber optic signals to copper for home/business use.
+Function: Demarcation point; fiber in, copper/Ethernet out; ISP responsibility outside, user inside.
+Features: RJ45 (data), RJ11 (VoIP), F-connector (video/coax).
+Use: For fiber internet; installed at building entry.
+
+      NICs (Network Interface Cards)
+NICs enable devices to connect to Ethernet networks.
+Function: Provide Ethernet interfaces; each has a unique MAC address.
+Types: Integrated (on motherboards) or expansion cards (e.g., 100M, 1G, fiber); multiple ports possible.
+Use: Connect servers/laptops to networks; ensure compatibility with network speed/type.
