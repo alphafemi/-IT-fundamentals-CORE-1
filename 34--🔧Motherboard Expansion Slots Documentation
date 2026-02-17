@@ -1,0 +1,34 @@
+Motherboard Expansion Slots Documentation
+Motherboard expansion slots connect add-on cards (e.g., graphics, network) via buses for enhanced functionality. This guide covers PCI (Peripheral Component Interconnect) and PCIe (PCI Express), their differences, and installation. Based on the transcript, PCI is older parallel tech, while PCIe is modern serial, offering higher speeds and efficiency.
+
+Overview of Expansion Slots
+Bus Concept: Pathways (buses) connect motherboard components (e.g., CPU to memory, slots to peripherals); expansion slots add features like GPUs or NICs.
+Evolution: PCI (1990s) gave way to PCIe for faster, serial communication.
+Compatibility: Slots vary by form factor; check motherboard for available types.
+
+PCI (Peripheral Component Interconnect)
+PCI is an older parallel bus standard for add-on cards.
+
+Specs: Created 1994; parallel communication (multiple bits simultaneously); 32-bit (120 pins) or 64-bit (184 pins) versions.
+Speeds: Up to 133 MB/s (32-bit) or 266 MB/s (64-bit); shared bandwidth.
+Connectors: Keyways in slot for alignment/power; cards have matching notches.
+Pros: Widely supported; inexpensive cards.
+Cons: Slower; parallel signaling prone to interference; phased out in modern boards.
+Use: Legacy systems; older graphics/network cards.
+
+PCIe (PCI Express)
+PCIe is the current standard, using serial lanes for high-speed communication.
+
+Specs: Serial (one bit at a time); uses lanes (x1, x2, x4, x8, x16); each lane bidirectional (send/receive).
+Speeds: Varies by version (e.g., PCIe 3.0: 8 GT/s per lane; PCIe 4.0: 16 GT/s); x16 slot for GPUs (up to 128 GB/s).
+Connectors: Smaller keyway closer to edge; latch on cards for secure fit; sizes match lanes (x1 shortest, x16 longest).
+Pros: Faster, scalable; backward compatible; efficient (no wide traces).
+Cons: Requires compatible cards; higher-end cards cost more.
+Use: Modern graphics, SSDs, network cards; most motherboards use PCIe.
+
+
+Installation Notes
+General: Align card with slot; push firmly (no force); secure with case screw.
+PCI: Push in; screw down; no latch.
+PCIe: Push in; engage latch; screw down; release latch to remove.
+Tips: Ensure power off; ground yourself; check for bent pins; update drivers post-install.
