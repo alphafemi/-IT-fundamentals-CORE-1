@@ -1,0 +1,50 @@
+RAID (Redundant Array of Independent Disks) Documentation
+RAID combines multiple drives for improved performance, redundancy, or both, protecting against drive failures. This guide covers RAID levels 0, 1, 5, 6, and 1+0 (RAID 10), explaining their mechanics, requirements, benefits, and drawbacks. Based on the transcript, RAID is not a substitute for backups—always maintain separate off-site or external backups.
+
+Overview of RAID
+Purpose: Enhances storage reliability and speed; uses multiple drives as a single logical unit.
+Implementation: Hardware (RAID controllers/cards) or software (OS-based); requires compatible drives (HDD/SSD).
+Key Concepts: Striping (splits data across drives for speed), mirroring (duplicates data for redundancy), parity (error-checking data for recovery).
+Trade-offs: Redundancy vs. speed vs. cost; higher redundancy often means more drives and lower usable capacity.
+
+RAID 0 (Striping)
+RAID 0 stripes data across drives for maximum speed, with no redundancy.
+
+How It Works: Splits data into blocks and distributes across drives (e.g., file broken into parts on multiple drives).
+Minimum Drives: 2.
+Pros: Fastest performance; full capacity usable (no overhead).
+Cons: No redundancy—if one drive fails, all data is lost.
+Use: High-speed tasks like video editing/gaming; not for critical data.
+
+RAID 1 (Mirroring)
+RAID 1 mirrors data across drives for redundancy.
+How It Works: Duplicates all data on every drive (e.g., Drive 0 and Drive 1 have identical copies).
+Minimum Drives: 2.
+Pros: Full redundancy; can lose one drive without data loss; simple rebuild.
+Cons: 50% capacity overhead (e.g., 2x 1TB drives = 1TB usable); no speed boost.
+Use: Critical data (OS, small servers); easy recovery.
+
+RAID 5 (Striping with Parity)
+RAID 5 stripes data with distributed parity for single-drive redundancy.
+
+How It Works: Stripes data across drives; one drive holds parity (error-checking data); parity rotates for efficiency.
+Minimum Drives: 3.
+Pros: Good balance of speed, redundancy, and capacity (e.g., 4 drives = ~75% usable); can lose one drive and rebuild using parity.
+Cons: Parity calculation uses CPU; rebuilds slower; not ideal for heavy writes.
+Use: General servers, NAS; cost-effective redundancy.
+
+RAID 6 (Striping with Double Parity)
+RAID 6 stripes data with dual parity for double-drive redundancy.
+How It Works: Similar to RAID 5 but with two parity drives; can recover from two failures.
+Minimum Drives: 4.
+Pros: Higher redundancy (lose up to two drives); better for large arrays.
+Cons: More CPU overhead; lower usable capacity (e.g., 4 drives = ~50% usable); slower writes.
+Use: Large storage systems, data centers; where uptime is critical.
+
+RAID 1+0 (RAID 10, Stripe of Mirrors)
+RAID 10 combines RAID 1 (mirroring) and RAID 0 (striping) for speed and redundancy.
+How It Works: Stripes data across mirrored pairs (e.g., mirror two drives, then stripe across pairs); requires even number of drives.
+Minimum Drives: 4 (two mirrored pairs).
+Pros: Fast (striping) and redundant (mirroring); can lose multiple drives (one per mirror) without failure.
+Cons: Expensive (50% capacity overhead); complex setup.
+Use: High-performance servers, databases; balances speed and reliability.
