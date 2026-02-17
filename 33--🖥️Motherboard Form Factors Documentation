@@ -1,0 +1,37 @@
+Motherboard Form Factors Documentation
+Motherboard form factors determine size, layout, and compatibility for cases, power supplies, and components. This guide covers the three key form factors for the CompTIA A+ exam: ATX (Advanced Technology Extended), Micro-ATX, and ITX (Mini-ITX). Based on the transcript, these vary in size, features, and use cases, with ATX being the largest and most flexible, while ITX is the smallest for compact builds.
+
+Overview
+Importance: Form factor affects case fit, expansion options, power connectors, and cooling. Larger boards offer more slots/features; smaller ones prioritize space-saving.
+Common Elements: All use standard ATX mounting holes; 24-pin main power connector; similar CPU/memory layouts but scaled down.
+Selection: Choose based on build type (e.g., ATX for desktops, ITX for media centers). Over 40 form factors exist, but focus on these for A+.
+
+ATX (Advanced Technology Extended)
+ATX is the standard, full-sized motherboard for desktops, offering maximum flexibility.
+Size: Largest (e.g., 12" x 9.6"); standard since 1995.
+Features: Multiple expansion slots (e.g., 4-7 PCIe), 4+ memory slots, ample USB/network ports; supports high-end CPUs and multi-GPU setups.
+Power: 24-pin main connector (upgraded from 20-pin); robust for power-hungry components.
+Cooling/Airflow: Space for large heatsinks/fans; better heat dissipation.
+Pros: Versatile, expandable; ideal for gaming/workstations.
+Cons: Requires larger cases; higher cost.
+Use: Full desktops, video editing, gaming rigs.
+
+Micro-ATX
+Micro-ATX is a compact version of ATX, maintaining compatibility but with fewer features.
+Size: Smaller than ATX (e.g., 9.6" x 9.6"); same mounting holes as ATX.
+Features: Fewer slots (e.g., 1-2 expansion, 2-4 memory); similar CPU/memory layout but scaled; supports standard components.
+Power: Same 24-pin connector as ATX.
+Cooling/Airflow: Adequate for moderate builds; less space than ATX.
+Pros: Fits smaller cases; cost-effective; ATX-compatible.
+Cons: Limited expansion (e.g., fewer PCIe slots); not for high-end multi-GPU.
+Use: Budget desktops, office PCs, small form factor builds.
+
+ITX (Mini-ITX)
+ITX is the smallest form factor, designed for ultra-compact systems.
+Size: Smallest (e.g., 6.7" x 6.7"); same mounting holes as ATX for case compatibility.
+Features: Minimal slots (e.g., 1 expansion, 2 memory); basic ports; supports low-power CPUs.
+Power: 24-pin connector; efficient for low-power builds.
+Cooling/Airflow: Tight space; relies on efficient cooling (e.g., low-profile fans).
+Pros: Fits tiny cases; perfect for space-constrained setups.
+Cons: Limited expansion/upgrades; not for performance-heavy tasks.
+Use: Media centers, HTPCs, single-purpose devices (e.g., next to TVs).
