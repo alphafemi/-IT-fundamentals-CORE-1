@@ -1,0 +1,35 @@
+Fiber Optic Connectors Documentation
+Optical fiber uses specialized connectors for secure, high-speed connections in data centers and networks. This guide covers common fiber connectors: ST, SC, and LC, including their designs, locking mechanisms, and applications. Based on the transcript, it explains how they connect/disconnect and their suitability for various setups.
+
+Overview of Fiber Connectors
+Fiber connectors terminate optical fibers for patching and linking devices. They ensure alignment for minimal signal loss. Choose based on device compatibility, space, and density needs. All support single-mode (SMF) and multi-mode (MMF) fibers.
+
+ST Connector (Straight Tip)
+ST is an older, reliable bayonet-style connector.
+
+Design: Straight tip; bayonet locking (push and twist to lock/unlock).
+Features: Secure; prevents accidental disconnection; used for individual fibers.
+Use: Legacy networks; patch panels; reliable for high-vibration environments.
+Advantages: Durable; easy to identify.
+Disadvantages: Larger; less dense than modern connectors.
+
+SC Connector (Subscriber Connector)
+SC is a popular, push-pull connector for modern applications.
+Design: Square; push to lock, pull outer tab to unlock; duplex versions connect send/receive pairs simultaneously.
+Features: Simple; widely used; supports single or duplex fibers.
+Use: Data centers, switches, routers; common in enterprise networks.
+Advantages: Reliable; easy to connect/disconnect; versatile.
+Disadvantages: Larger than LC; requires space.
+
+LC Connector (Lucent Connector)
+LC is a compact, high-density connector for space-constrained setups.
+Design: Small; clip on top for locking; duplex (connects pairs); also called Local or Little Connector.
+Features: Space-saving; push-pull with clip; ideal for high-port density.
+Use: Modern data centers, SFP modules, high-speed networks.
+Advantages: Compact; supports dense installations; future-proof.
+Disadvantages: Smaller size can be harder to handle manually.
+Comparison and Usage Notes
+Size: ST > SC > LC (LC is smallest, best for density).
+Locking: ST (twist), SC (push-pull), LC (clip).
+Compatibility: Ensure matching connectors on devices; adapters available for mixing.
+Best Practices: Clean connectors to avoid signal loss; use dust caps; match SMF/MMF types.
