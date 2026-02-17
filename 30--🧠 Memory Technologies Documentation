@@ -1,0 +1,30 @@
+Memory Technologies Documentation
+Memory technologies enhance reliability and performance through error detection/correction and bandwidth improvements. This guide covers parity memory, ECC memory, and multi-channel RAM, explaining their functions, benefits, and implementations. Based on the transcript, it focuses on server-critical features for error handling and speed optimization.
+
+Parity Memory
+Parity memory detects errors using an extra bit but cannot correct them.
+How It Works: Adds a 9th parity bit to each 8-bit byte for even parity (total 1s is even); stored with data.
+Detection: On retrieval, recalculates parity; mismatch indicates error (e.g., data corruption).
+Example:
+Byte: 11100111 (6 ones, even) → Parity bit: 0.
+Byte: 00000010 (1 one, odd) → Parity bit: 1.
+Retrieval: If stored parity differs, error detected.
+Limitations: Detects but doesn't correct; may require system halt/reboot.
+Use: Basic error detection in non-critical systems; less common now due to ECC.
+
+ECC Memory (Error Correction Code)
+ECC memory detects and corrects errors, ensuring system stability.
+
+How It Works: Uses algorithms to detect/correct single-bit errors; similar to parity but more advanced; corrects issues automatically.
+Benefits: Prevents data corruption; system continues running normally; ideal for reliability.
+Physical: Same size as standard/parity modules; check specs for ECC support.
+Use: Servers, workstations, critical systems (e.g., web/database servers); not needed for home desktops unless high reliability required.
+
+Multi-Channel RAM
+Multi-channel RAM increases bandwidth by using multiple memory channels simultaneously.
+
+How It Works: CPU accesses multiple modules at once (e.g., dual-channel doubles throughput); measured in MT/s (million transfers per second).
+Types: Dual-channel (2 modules), triple-channel (3), quad-channel (4); requires matching modules (same type/model) for optimal performance.
+Benefits: Boosts memory bandwidth; reduces CPU idle time; e.g., two 16GB modules in dual-channel = same capacity as one 32GB but higher speed.
+Implementation: Motherboard slots color-coded (e.g., black/red for dual-channel pairs); install in matching slots.
+Use: High-performance systems; gaming/workstations; check motherboard for supported channels.
