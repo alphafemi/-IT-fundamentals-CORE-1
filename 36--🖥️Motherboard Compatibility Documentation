@@ -1,0 +1,43 @@
+Motherboard Compatibility Documentation
+Motherboard compatibility depends on CPU type, socket, and intended use (e.g., desktops vs. servers). This guide covers differences between Intel and AMD-based motherboards, CPU installation, and server-specific features. Based on the transcript, Intel and AMD require matching sockets, while servers emphasize scalability for high-performance needs.
+
+Intel vs. AMD Motherboards
+Intel and AMD CPUs are compatible but require specific motherboard sockets; choose based on performance, price, and features.
+
+    Intel Motherboards:
+
+Sockets: Vary by generation (e.g., LGA 1200 for 10th/11th gen, LGA 1700 for 12th/13th gen); use land grid array (pins on motherboard).
+Performance: Often higher single-threaded performance; premium for gaming/workstations.
+Price: Typically higher-end; competes with AMD on value.
+Use: Desktops, laptops; integrated features like Thunderbolt.
+
+      AMD Motherboards:
+
+Sockets: AM4 (mainstream, e.g., Ryzen 3000/5000), AM5 (latest Ryzen 7000); pins on CPU.
+Performance: Strong multi-threaded; better value for multi-core tasks.
+Price: Often more affordable; seen as budget-friendly, but high-end models rival Intel.
+Use: Budget builds, content creation; good for overclocking.
+Key Differences: Sockets are incompatible (AMD pin grid vs. Intel land grid); motherboards tailored to chipset (e.g., Intel Z690 vs. AMD B550). Performance/price fluctuate; check benchmarks for needs.
+
+Compatibility Notes: Ensure motherboard supports CPU generation; BIOS updates may be needed for new CPUs.
+
+CPU Installation
+Installing CPUs is simple but requires care to avoid damage.
+
+Process:
+Align CPU with socket (match notches/keys).
+Place gently (no force); close retention lever/handle to secure.
+Tips: Use thermal paste if not pre-applied; ensure socket is clean; handle by edges.
+Compatibility: Motherboard must match CPU socket/type; check manuals.
+
+Server Motherboards
+Server motherboards prioritize scalability, reliability, and high capacity for enterprise use.
+
+Features:
+Multi-Socket: Support 2+ CPUs (e.g., dual Xeon or EPYC) for parallel processing.
+Memory: 4-16+ slots (ECC RAM for error correction); high capacity (e.g., 1TB+).
+Expansion Slots: Multiple PCIe for NICs, storage controllers, GPUs.
+Form Factor: Full ATX for 19-inch racks; redundant power/fans for uptime.
+Pros: Handles heavy workloads (databases, virtualization); ECC memory prevents data corruption.
+Cons: Expensive; requires server-grade components.
+Use: Data centers, enterprise servers; not for desktops.
