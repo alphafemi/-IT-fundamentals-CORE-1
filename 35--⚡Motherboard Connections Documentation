@@ -1,0 +1,50 @@
+Motherboard Connections Documentation
+Motherboards connect to power supplies, storage devices, and case components via specific interfaces. This guide covers power connections, storage drive interfaces, and header pins for peripherals and controls. Based on the transcript, these enable system power, data transfer, and user interactions, with proper installation preventing damage.
+
+Power Connections
+Power connectors supply DC voltage to the motherboard and components; mismatched connections can cause failures.
+
+Main Motherboard Power (20/24-Pin ATX):
+
+Specs: 20-pin (older) or 24-pin (modern); provides 3.3V, 5V, 12V DC.
+Connector: Keyed to prevent incorrect insertion; latch secures it.
+Installation: Align keys; push in firmly; unlock latch to remove.
+Compatibility: 24-pin cable works on 20-pin boards (extra pins unused); modular PSUs allow pin removal.
+Use: Primary power for CPU, memory, etc.
+
+PCIe Power Connectors (6/8-Pin):
+Specs: 6-pin (75W, 12V) or 8-pin (150W, 12V); for high-power add-ons.
+Connector: Modular (remove pins for 6-pin use); plugs into cards.
+Use: Graphics cards, high-end adapters; supplements motherboard power.
+Note: Ensure PSU has these; overdraw can damage components.
+
+Storage Drive Interfaces
+Interfaces connect HDDs/SSDs for data transfer; choose based on drive type and speed needs.
+
+SATA (Serial ATA):
+Specs: L-shaped 7-pin data connector; up to 6 Gbps (SATA 3.0); separate power connector.
+Use: Internal drives; connect data cable to motherboard port, power to PSU.
+Installation: Push data cable into port; secure power; no tools needed.
+
+eSATA (External SATA):
+Specs: Shielded external version; up to 6 Gbps; different connector shape (prevents mixing with internal SATA).
+Use: External drives; via motherboard ports or expansion cards.
+Installation: Plug into rear port; hot-pluggable.
+
+M.2:
+Specs: Small slot (e.g., 22mm wide); supports SATA or PCIe/NVMe; no cables.
+Use: Compact SSDs; direct motherboard connection for high speeds.
+Installation: Slide drive into slot; screw down for security; check key (B/M) for compatibility.
+
+
+Motherboard Header Pins
+Header pins are small connectors for case components and peripherals; labeled on motherboard.
+
+    Types:
+USB Headers: 4/9-pin for front USB ports (USB 2.0/3.0); connect case USB to motherboard.
+Front Panel Headers: 2-pin pairs for power/reset buttons, HDD LEDs, speaker; match case wiring.
+TPM (Trusted Platform Module): 12/20-pin for security chips.
+Other: Audio, fan controls; modular for customization.
+Installation: Align pins carefully (polarity matters); plug in gently; secure with case.
+Use: Enable case buttons/LEDs; expand USB/audio without rear ports.
+Tips: Consult manual for pinouts; incorrect wiring can cause shorts.
