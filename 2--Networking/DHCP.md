@@ -5,17 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [The DORA Process](#the-dora-process)
-3. [DHCP Scope](#dhcp-scope)
-   - [IP Address Pools](#ip-address-pools)
-   - [Exclusions](#exclusions)
-   - [Scope Options](#scope-options)
-4. [DHCP Reservations](#dhcp-reservations)
-5. [DORA Packet Details](#dora-packet-details)
-6. [Key Takeaways](#key-takeaways)
 
 ---
 
