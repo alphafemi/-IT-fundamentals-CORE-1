@@ -1,39 +1,5 @@
 # CompTIA A+ 220-1201 — Network Services & Server Roles
 
-> **Exam Domain Reference** | Core 1 (220-1201) — Networking (Domain 2)  
-> Topics: DNS, DHCP, file servers, print servers, email, syslog/SIEM, web servers, AAA, databases, NTP, spam gateways, UTM, load balancers, proxy servers, SCADA/ICS, legacy systems, embedded systems, IoT
-
----
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Core Network Services](#core-network-services)
-   - [DNS — Domain Name System](#dns--domain-name-system)
-   - [DHCP — Dynamic Host Configuration Protocol](#dhcp--dynamic-host-configuration-protocol)
-   - [NTP — Network Time Protocol](#ntp--network-time-protocol)
-3. [File & Print Services](#file--print-services)
-   - [File Servers](#file-servers)
-   - [Print Servers](#print-servers)
-4. [Communication Services](#communication-services)
-   - [Email Servers](#email-servers)
-   - [Spam Gateway](#spam-gateway)
-   - [Web Servers](#web-servers)
-5. [Security & Management Services](#security--management-services)
-   - [Authentication Server (AAA)](#authentication-server-aaa)
-   - [Syslog & SIEM](#syslog--siem)
-   - [UTM — Unified Threat Management](#utm--unified-threat-management)
-   - [Proxy Server](#proxy-server)
-   - [Load Balancer](#load-balancer)
-6. [Data Services](#data-services)
-   - [Database Servers](#database-servers)
-7. [Specialized & Industrial Systems](#specialized--industrial-systems)
-   - [SCADA / ICS](#scada--ics)
-   - [Legacy Systems](#legacy-systems)
-   - [Embedded Systems](#embedded-systems)
-   - [IoT — Internet of Things](#iot--internet-of-things)
-8. [Server Roles Quick Reference](#server-roles-quick-reference)
-9. [Key Takeaways](#key-takeaways)
 
 ---
 
