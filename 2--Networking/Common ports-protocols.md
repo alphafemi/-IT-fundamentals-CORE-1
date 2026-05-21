@@ -7,25 +7,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Quick Reference — All Ports](#quick-reference--all-ports)
-2. [Protocol Deep Dives](#protocol-deep-dives)
-   - [FTP — File Transfer Protocol](#ftp--file-transfer-protocol)
-   - [SSH — Secure Shell](#ssh--secure-shell)
-   - [Telnet](#telnet)
-   - [SMTP — Simple Mail Transfer Protocol](#smtp--simple-mail-transfer-protocol)
-   - [DNS — Domain Name System](#dns--domain-name-system)
-   - [DHCP — Dynamic Host Configuration Protocol](#dhcp--dynamic-host-configuration-protocol)
-   - [HTTP & HTTPS](#http--https)
-   - [POP3 — Post Office Protocol v3](#pop3--post-office-protocol-v3)
-   - [IMAP — Internet Message Access Protocol](#imap--internet-message-access-protocol)
-   - [SMB / CIFS & NetBIOS](#smb--cifs--netbios)
-   - [LDAP / LDAPS](#ldap--ldaps)
-   - [RDP — Remote Desktop Protocol](#rdp--remote-desktop-protocol)
-3. [Key Takeaways](#key-takeaways)
-
----
 
 ## Quick Reference — All Ports
 
