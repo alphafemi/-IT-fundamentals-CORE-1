@@ -5,19 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [LANs & Broadcast Domains](#lans--broadcast-domains)
-2. [VLANs — Virtual Local Area Networks](#vlans--virtual-local-area-networks)
-   - [Why VLANs Exist](#why-vlans-exist)
-   - [How VLANs Work](#how-vlans-work)
-   - [Inter-VLAN Routing](#inter-vlan-routing)
-3. [VPNs — Virtual Private Networks](#vpns--virtual-private-networks)
-   - [VPN Concentrator](#vpn-concentrator)
-   - [Client-to-Site VPN](#client-to-site-vpn)
-   - [Site-to-Site VPN](#site-to-site-vpn)
-4. [VLAN vs. VPN Comparison](#vlan-vs-vpn-comparison)
-5. [Key Takeaways](#key-takeaways)
 
 ---
 
