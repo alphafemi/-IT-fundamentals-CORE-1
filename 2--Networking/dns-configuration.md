@@ -5,27 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [DNS Hierarchy](#dns-hierarchy)
-3. [DNS Tools](#dns-tools)
-   - [dig](#dig)
-   - [nslookup](#nslookup)
-4. [DNS Resource Records](#dns-resource-records)
-   - [A Record (IPv4)](#a-record-ipv4)
-   - [AAAA Record (IPv6)](#aaaa-record-ipv6)
-   - [CNAME — Canonical Name](#cname--canonical-name)
-   - [MX — Mail Exchanger](#mx--mail-exchanger)
-   - [TXT — Text Records](#txt--text-records)
-5. [Email Authentication Records](#email-authentication-records)
-   - [SPF — Sender Policy Framework](#spf--sender-policy-framework)
-   - [DKIM — DomainKeys Identified Mail](#dkim--domainkeys-identified-mail)
-   - [DMARC — Domain-Based Message Authentication, Reporting & Conformance](#dmarc--domain-based-message-authentication-reporting--conformance)
-6. [DNS Record Quick Reference](#dns-record-quick-reference)
-7. [Key Takeaways](#key-takeaways)
-
----
 
 ## Overview
 
