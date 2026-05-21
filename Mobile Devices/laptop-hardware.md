@@ -5,24 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Batteries](#batteries)
-3. [Keyboards](#keyboards)
-4. [Memory (SO-DIMM)](#memory-so-dimm)
-5. [Storage Drives](#storage-drives)
-   - [2.5-inch HDD/SSD](#25-inch-hddssd)
-   - [M.2 Interface](#m2-interface)
-   - [Drive Cloning & Imaging](#drive-cloning--imaging)
-6. [Wireless Networking](#wireless-networking)
-   - [802.11 (Wi-Fi)](#80211-wi-fi)
-   - [Bluetooth](#bluetooth)
-   - [Antenna Routing](#antenna-routing)
-7. [Biometric Authentication](#biometric-authentication)
-8. [NFC (Near Field Communication)](#nfc-near-field-communication)
-9. [Webcams & Microphones](#webcams--microphones)
-10. [Key Takeaways](#key-takeaways)
 
 ---
 
