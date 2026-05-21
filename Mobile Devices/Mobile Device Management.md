@@ -5,19 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Overview](#overview)
-2. [Mobile Device Management (MDM)](#mobile-device-management-mdm)
-   - [What MDM Controls](#what-mdm-controls)
-   - [MDM Console Features](#mdm-console-features)
-3. [Mobile Device Deployment Models](#mobile-device-deployment-models)
-   - [BYOD — Bring Your Own Device](#byod--bring-your-own-device)
-   - [COPE — Corporate Owned, Personally Enabled](#cope--corporate-owned-personally-enabled)
-   - [CYOD — Choose Your Own Device](#cyod--choose-your-own-device)
-4. [Synchronization & Data Management](#synchronization--data-management)
-5. [Deployment Model Comparison](#deployment-model-comparison)
-6. [Key Takeaways](#key-takeaways)
 
 ---
 
