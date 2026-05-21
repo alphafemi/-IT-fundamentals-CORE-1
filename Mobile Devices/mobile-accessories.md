@@ -5,23 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Overview](#overview)
-2. [Stylus / Digital Pen](#stylus--digital-pen)
-3. [Headsets](#headsets)
-   - [Wired Headsets](#wired-headsets)
-   - [Wireless Headsets](#wireless-headsets)
-4. [Wireless Speakers](#wireless-speakers)
-5. [Webcams & Cameras](#webcams--cameras)
-6. [Docking Stations](#docking-stations)
-7. [Port Replicators](#port-replicators)
-8. [Trackpads](#trackpads)
-9. [Drawing Pads (External Digitizers)](#drawing-pads-external-digitizers)
-10. [Accessory Comparison](#accessory-comparison)
-11. [Key Takeaways](#key-takeaways)
-
----
 
 ## Overview
 
