@@ -5,19 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Overview](#overview)
-2. [Wired Connectivity](#wired-connectivity)
-   - [USB Standards & Connector Types](#usb-standards--connector-types)
-   - [USB-C](#usb-c)
-   - [Lightning (Apple)](#lightning-apple)
-3. [Wireless Connectivity](#wireless-connectivity)
-   - [NFC (Near Field Communication)](#nfc-near-field-communication)
-   - [Bluetooth](#bluetooth)
-   - [Hotspot & Tethering](#hotspot--tethering)
-4. [Connector Comparison](#connector-comparison)
-5. [Key Takeaways](#key-takeaways)
 
 ---
 
