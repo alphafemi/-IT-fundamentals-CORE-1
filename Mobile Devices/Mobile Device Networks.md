@@ -5,21 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Cellular Networks](#cellular-networks)
-   - [Generations of Cellular Technology](#generations-of-cellular-technology)
-   - [Cellular vs. Wi-Fi Data](#cellular-vs-wi-fi-data)
-   - [Hotspot & Tethering](#hotspot--tethering)
-3. [SIM Cards](#sim-cards)
-   - [Physical SIM](#physical-sim)
-   - [eSIM (Embedded SIM)](#esim-embedded-sim)
-4. [Bluetooth Pairing](#bluetooth-pairing)
-5. [GPS & Location Services](#gps--location-services)
-6. [Key Takeaways](#key-takeaways)
-
----
 
 ## Overview
 
