@@ -5,20 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Overview](#overview)
-2. [802.11 Wi-Fi Standards](#80211-wi-fi-standards)
-   - [Naming Convention](#naming-convention)
-   - [Frequencies & Channels](#frequencies--channels)
-   - [Channel Bandwidth](#channel-bandwidth)
-3. [Bluetooth](#bluetooth)
-4. [RFID — Radio Frequency Identification](#rfid--radio-frequency-identification)
-5. [NFC — Near Field Communication](#nfc--near-field-communication)
-6. [Wireless Technology Comparison](#wireless-technology-comparison)
-7. [Key Takeaways](#key-takeaways)
-
----
 
 ## Overview
 
