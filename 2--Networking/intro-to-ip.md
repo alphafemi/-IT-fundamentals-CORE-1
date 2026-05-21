@@ -7,19 +7,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Overview — The Network as a Road](#overview--the-network-as-a-road)
-2. [Encapsulation](#encapsulation)
-3. [TCP — Transmission Control Protocol](#tcp--transmission-control-protocol)
-4. [UDP — User Datagram Protocol](#udp--user-datagram-protocol)
-5. [TCP vs. UDP Comparison](#tcp-vs-udp-comparison)
-6. [IP Addresses](#ip-addresses)
-7. [Port Numbers](#port-numbers)
-   - [Well-Known (Non-Ephemeral) Ports](#well-known-non-ephemeral-ports)
-   - [Ephemeral (Client) Ports](#ephemeral-client-ports)
-8. [Putting It All Together](#putting-it-all-together)
-9. [Key Takeaways](#key-takeaways)
 
 ---
 
