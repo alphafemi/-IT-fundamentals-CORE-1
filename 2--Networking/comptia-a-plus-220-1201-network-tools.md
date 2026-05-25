@@ -1,0 +1,233 @@
+# CompTIA A+ 220-1201 — Network Tools & Cable Management
+
+> **Exam Domain Reference** | Core 1 (220-1201) — Networking (Domain 2)  
+> Topics: Cable crimper, Wi-Fi analyzer, spectrum analyzer, tone generator, punch-down tool, cable tester, loopback plug, network tap, port mirror/SPAN
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Cable Tools](#cable-tools)
+   - [Cable Crimper](#cable-crimper)
+   - [Wire Stripper & Cable Snips](#wire-stripper--cable-snips)
+   - [Punch-Down Tool](#punch-down-tool)
+   - [Cable Tester](#cable-tester)
+3. [Network Discovery & Analysis Tools](#network-discovery--analysis-tools)
+   - [Tone Generator & Inductive Probe](#tone-generator--inductive-probe)
+   - [Wi-Fi Analyzer](#wi-fi-analyzer)
+   - [Spectrum Analyzer](#spectrum-analyzer)
+4. [Diagnostic Tools](#diagnostic-tools)
+   - [Loopback Plug](#loopback-plug)
+   - [Network Tap](#network-tap)
+   - [Port Mirror / SPAN](#port-mirror--span)
+5. [Tool Summary Table](#tool-summary-table)
+6. [Key Takeaways](#key-takeaways)
+
+---
+
+## Overview
+
+Network technicians rely on a set of specialized tools to install, test, troubleshoot, and analyze physical and wireless network connections. Knowing which tool to use for which job — and how each works — is directly tested on the A+ exam.
+
+---
+
+## Cable Tools
+
+### Cable Crimper
+
+A crimper permanently attaches a connector to the end of a cable.
+
+**Most common use:** Attaching **RJ45 connectors** to twisted pair (Cat5e/Cat6) cable.
+
+**How it works:**
+- The RJ45 connector has small copper pins with pointed ends
+- When the wire is inserted and the crimper is squeezed, the pins are pushed down through the wire insulation and contact the copper conductors inside
+- The crimper also pushes in a **cable stay** (strain relief) that grips the cable jacket, preventing the cable from being pulled out of the connector
+
+**Required tools for DIY patch cables:**
+- Cable crimper
+- Wire stripper (to remove the outer jacket)
+- Electrician scissors / cable snips (to trim wires to even length)
+- RJ45 connectors
+
+> **Note:** Crimping takes practice — getting the wire order correct and seated fully before crimping is the most common challenge for beginners.
+
+### Wire Stripper & Cable Snips
+
+- **Wire stripper** — removes the outer plastic jacket from the cable without cutting the inner wires
+- **Cable snips / electrician scissors** — cleanly cut the individual conductor wires to a uniform length before inserting into the connector
+
+### Punch-Down Tool
+
+Used to terminate individual conductors onto a **punch-down block** (also called a **110 block** or **66 block**) — commonly found on the back of patch panels in network closets.
+
+**How it works:**
+- Each wire is seated into a slot on the punch-down block
+- The punch-down tool presses the wire down into the connector, making electrical contact
+- The tool simultaneously **trims the excess wire** for a clean finish
+
+**Best practice:** Maintain the twists in the twisted pair cable as close to the punch-down point as possible — the twists reduce interference, and untwisting too much degrades signal quality.
+
+**Documentation:** Always label punch-down blocks with cable numbers and destination, since a block may terminate hundreds of wires.
+
+### Cable Tester
+
+A cable tester checks **continuity** — verifying that each pin on one end of a cable connects correctly to the matching pin on the other end.
+
+**What it tests:**
+- All 8 pins of an RJ45 cable map correctly (pin 1 → pin 1, pin 2 → pin 2, etc.)
+- No open connections (broken wire)
+- No crossed wires (wrong pin-to-pin mapping)
+
+**What it does NOT test:**
+- Signal quality
+- Cable performance under load
+
+> **Exam Tip:** A cable tester is a **continuity test only** — it confirms wiring correctness but does not validate signal integrity or bandwidth capability.
+
+Many tone generator/inductive probe kits include a cable testing mode as a secondary function.
+
+---
+
+## Network Discovery & Analysis Tools
+
+### Tone Generator & Inductive Probe
+
+Used to **locate a specific cable** among many — essential in patch panels or cable bundles with dozens or hundreds of wires.
+
+**Two-part tool:**
+
+| Component | Function |
+|---|---|
+| **Tone generator** | Connects to one end of the cable; injects an analog audio tone onto the wire |
+| **Inductive probe** | Swept along cable bundles; detects the tone through the cable insulation without touching the copper |
+
+**How to use:**
+1. Connect the tone generator to one end of the target cable (RJ45, coax, or punch-down block)
+2. Power on the tone generator
+3. Move the inductive probe along cables at the other end (e.g., inside a patch panel)
+4. When the probe reaches the correct cable, it emits an audible tone and/or flashes lights
+
+> **Key point:** The inductive probe detects the signal **through the cable's outer insulation** — no need to access the copper conductors.
+
+### Wi-Fi Analyzer
+
+A Wi-Fi analyzer examines the **health and environment of a wireless network**.
+
+**What it shows:**
+- Channels / frequencies currently in use by nearby networks
+- Signal strength from each visible access point
+- Interference from other wireless devices
+- All devices communicating to the local access point
+
+**Use case:** Identify channel conflicts, optimize AP placement, and diagnose weak signal areas.
+
+### Spectrum Analyzer
+
+A spectrum analyzer views the **entire radio frequency spectrum** — not just 802.11 networks.
+
+**Difference from Wi-Fi analyzer:**
+- Wi-Fi analyzer shows only 802.11 networks
+- Spectrum analyzer shows **all RF activity** — microwaves, cordless phones, Bluetooth, baby monitors, and any other device emitting radio frequency energy in the area
+
+Used when interference is suspected from non-Wi-Fi sources.
+
+---
+
+## Diagnostic Tools
+
+### Loopback Plug
+
+A loopback plug tests the **physical network interface** of a device in isolation — ruling out cable problems and isolating the issue to the hardware itself.
+
+**Available for:**
+- RJ45 (Ethernet)
+- Serial connections
+- Fiber connections
+
+**How it works:**
+1. Plug the loopback plug into the interface
+2. Put the interface into **diagnostic/loopback mode**
+3. The interface sends test data out the transmit pin — the loopback plug routes it back into the receive pin
+4. The device compares what was sent to what was received
+
+| Result | Meaning |
+|---|---|
+| Sent = Received | Interface hardware is functioning correctly |
+| Sent ≠ Received | Physical interface is likely faulty |
+
+> **Exam Tip:** A loopback plug is **not a crossover cable**. It loops the transmit signal back to the receive on the **same interface** for self-testing.
+
+### Network Tap
+
+A network tap intercepts traffic on a live network link by **physically inserting a device into the cable run**.
+
+**How it works:**
+- The existing cable is broken and both ends connect to the tap
+- The tap passes traffic normally between the two endpoints
+- A **monitor/copy port** on the tap sends a duplicate of all traffic to a protocol analyzer
+
+**Types:**
+
+| Type | Power Required | Common Use |
+|---|---|---|
+| **Passive tap** | No | Fiber networks |
+| **Active tap** | Yes | Copper networks |
+
+**Limitation:** Installing a tap requires **breaking the connection** — not practical during production hours on a live network.
+
+### Port Mirror / SPAN
+
+A **port mirror** (also called **SPAN — Switched Port ANalyzer** or **port redirection**) achieves the same result as a network tap using software built into a managed switch — **no physical disruption required**.
+
+**How it works:**
+1. Connect a protocol analyzer to any available switch port
+2. Configure the switch to **copy all traffic** from a monitored port to the analyzer port
+3. The switch duplicates frames in hardware and sends copies to the analyzer
+
+**Advantages over a physical tap:**
+- No network disruption
+- No additional hardware needed (uses existing switch)
+- Can be enabled and disabled remotely
+
+> **Exam Tip:** SPAN = software-based port mirror on a managed switch. Tap = physical hardware inserted into the cable. Both capture a copy of network traffic.
+
+---
+
+## Tool Summary Table
+
+| Tool | Purpose | Requires Physical Access to Copper? |
+|---|---|---|
+| Cable crimper | Attach RJ45/coax connectors to cable | Yes |
+| Wire stripper | Remove cable jacket | Yes |
+| Punch-down tool | Terminate wires onto punch-down block | Yes |
+| Cable tester | Verify pin-to-pin continuity | Yes (both ends) |
+| Tone generator | Inject traceable tone onto a wire | Yes (one end) |
+| Inductive probe | Locate wire carrying the tone | No (through insulation) |
+| Wi-Fi analyzer | Analyze 802.11 channel/signal health | No |
+| Spectrum analyzer | View all RF activity in an area | No |
+| Loopback plug | Test physical interface hardware | Yes (at the device) |
+| Network tap | Capture live traffic (hardware) | Yes (breaks the link) |
+| Port mirror / SPAN | Capture live traffic (software) | No |
+
+---
+
+## Key Takeaways
+
+| Topic | Key Fact |
+|---|---|
+| Cable crimper | Permanently attaches connectors; used for RJ45 on twisted pair |
+| Punch-down tool | Terminates wires onto patch panel/punch-down block; trims excess wire |
+| Cable tester | Continuity only — pin 1 to pin 1, etc.; does not test signal quality |
+| Tone generator | Injects audio tone onto wire for cable tracing |
+| Inductive probe | Detects tone through insulation — no contact with copper required |
+| Wi-Fi analyzer | Shows channels, signal strength, AP clients, interference |
+| Spectrum analyzer | Shows all RF in the area — not limited to 802.11 |
+| Loopback plug | Tests physical interface; NOT a crossover cable; transmit loops to receive |
+| Network tap | Hardware inserted into cable; passive (fiber) or active (copper) |
+| Port mirror / SPAN | Software-based traffic copy via managed switch; no disruption |
+
+---
+
+> 📚 **Study Resource:** This document maps to **CompTIA A+ Core 1 (220-1201) Domain 2 — Networking**, covering the tools used for cable installation, cable tracing, wireless analysis, interface testing, and network traffic capture.
