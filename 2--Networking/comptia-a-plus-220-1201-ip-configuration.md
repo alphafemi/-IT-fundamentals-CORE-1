@@ -1,0 +1,154 @@
+# CompTIA A+ 220-1201 — IP Configuration & Addressing
+
+> **Exam Domain Reference** | Core 1 (220-1201) — Networking (Domain 2)  
+> Topics: IP configuration parameters, static vs. dynamic addressing, DHCP reservations, APIPA / link-local addresses
+
+---
+
+## Table of Contents
+
+1. [Required IP Configuration Parameters](#required-ip-configuration-parameters)
+2. [Static vs. Dynamic IP Addressing](#static-vs-dynamic-ip-addressing)
+   - [Static IP Addresses](#static-ip-addresses)
+   - [DHCP (Dynamic)](#dhcp-dynamic)
+   - [DHCP Reservations](#dhcp-reservations)
+3. [APIPA — Automatic Private IP Addressing](#apipa--automatic-private-ip-addressing)
+   - [APIPA Address Range](#apipa-address-range)
+   - [ARP Conflict Check](#arp-conflict-check)
+4. [Addressing Method Comparison](#addressing-method-comparison)
+5. [Key Takeaways](#key-takeaways)
+
+---
+
+## Required IP Configuration Parameters
+
+Every device on an IP network needs at minimum three pieces of configuration to communicate:
+
+| Parameter | Example | Purpose |
+|---|---|---|
+| **IP Address** | `192.168.1.165` | Uniquely identifies the device on the network |
+| **Subnet Mask** | `255.255.255.0` | Tells the device which subnet it belongs to |
+| **Default Gateway** | `192.168.1.1` | IP address of the local router — needed to communicate outside the local subnet |
+
+**Additional optional parameters:**
+- **DNS server** — resolves domain names to IP addresses
+- **NTP server** — time synchronization
+- **VoIP server** — for voice over IP environments
+- Other IP configuration options as required by the environment
+
+> **Exam Tip:** Without a subnet mask, a device cannot determine its own subnet. Without a default gateway, a device cannot communicate beyond its local subnet. All three core parameters are required for full network connectivity.
+
+---
+
+## Static vs. Dynamic IP Addressing
+
+### Static IP Addresses
+
+A **static IP address** is manually configured on the device and does not change.
+
+**How to configure:**
+- Open the device's network configuration settings
+- Manually enter: IP address, subnet mask, default gateway, DNS server(s)
+- Every field must be entered exactly — a single typo can break connectivity
+
+**When to use static IPs:**
+- Servers (web, file, print, DNS)
+- Network infrastructure (routers, switches, firewalls)
+- Printers and other devices that need a consistent, known address
+
+**Drawbacks of fully manual static configuration:**
+- Time-consuming at scale — impractical for hundreds or thousands of devices
+- If the gateway or DNS addresses change, every manually configured device must be updated individually
+- Not scalable for large environments
+
+### DHCP (Dynamic)
+
+DHCP automates IP assignment — the device requests an address and the DHCP server provides all configuration parameters automatically.
+
+- Works transparently at home, in offices, hotels, coffee shops
+- All parameters (IP, mask, gateway, DNS) are delivered in a single server response
+- Scalable to any size network
+
+### DHCP Reservations
+
+A **DHCP reservation** is the best-practice alternative to fully manual static IP configuration. The device is set to use DHCP, but the DHCP server always assigns the same IP based on the device's **MAC address**.
+
+**Advantages over manual static configuration:**
+
+| Scenario | Manual Static | DHCP Reservation |
+|---|---|---|
+| Change default gateway IP | Update every device manually | Update once on DHCP server |
+| Change DNS server | Update every device manually | Update once on DHCP server |
+| New device added | Configure manually at device | Add MAC → IP mapping to DHCP server |
+| Device receives updated config | Never (until manually changed) | On next reboot / lease renewal |
+
+> **Best practice:** Use DHCP reservations for infrastructure devices (routers, printers, switches) instead of manually configured static IPs. Centralized management is faster, safer, and more scalable.
+
+---
+
+## APIPA — Automatic Private IP Addressing
+
+### What Is APIPA?
+
+If a device is configured to use DHCP but **cannot reach a DHCP server**, the operating system automatically assigns itself an **APIPA address** (also called an **IPv4 link-local address**).
+
+**APIPA characteristics:**
+- Allows communication with **other devices on the same local subnet only**
+- **Cannot be routed** — no internet access, no access to other subnets
+- Assigned automatically — no user action required
+- Indicates a problem: the DHCP server is unreachable
+
+> **Diagnostic tip:** If a device has an IP address in the `169.254.x.x` range, it has assigned itself an APIPA address — meaning **DHCP is not working** and needs to be investigated.
+
+### APIPA Address Range
+
+| Range | Detail |
+|---|---|
+| Full APIPA block | `169.254.0.0` – `169.254.255.255` |
+| Reserved (not used) | First 256 addresses (`169.254.0.x`) and last 256 (`169.254.255.x`) |
+| **Usable APIPA range** | **`169.254.1.0` – `169.254.254.255`** |
+
+When a device self-assigns an APIPA address, it randomly selects an address from the usable range.
+
+### ARP Conflict Check
+
+Before using a randomly chosen APIPA address, the device must verify no other device is already using it.
+
+**Process:**
+1. Device randomly selects an APIPA address (e.g., `169.254.77.77`)
+2. Device sends an **ARP (Address Resolution Protocol) broadcast** to the local subnet:
+   *"Is anyone using 169.254.77.77?"*
+3. If **no response** is received → address is available → device assigns it to itself
+4. If **a response is received** → address is in use → device picks a different address and repeats
+
+---
+
+## Addressing Method Comparison
+
+| Method | Who Assigns IP | Changes | Scalability | Best For |
+|---|---|---|---|---|
+| **Manual static** | Administrator (at device) | Rarely | Poor | Small networks; not recommended at scale |
+| **DHCP (dynamic)** | DHCP server | Each lease | Excellent | Most client devices |
+| **DHCP reservation** | DHCP server (MAC-bound) | Centrally managed | Excellent | Servers, printers, infrastructure |
+| **APIPA** | Device (self-assigned) | N/A | N/A | Fallback when DHCP unavailable |
+
+---
+
+## Key Takeaways
+
+| Topic | Key Fact |
+|---|---|
+| IP address | Uniquely identifies a device; required for all network communication |
+| Subnet mask | Tells device which subnet it's on; `255.255.255.0` is common |
+| Default gateway | Router address; required to communicate outside the local subnet |
+| Static IP | Manually configured; does not change; impractical at scale |
+| DHCP | Automatically assigns all IP parameters; scalable |
+| DHCP reservation | MAC → fixed IP via DHCP server; best practice for infrastructure |
+| APIPA | Self-assigned when DHCP fails; `169.254.1.0`–`169.254.254.255` |
+| APIPA = problem | Seeing a `169.254.x.x` address means DHCP is not reachable |
+| ARP check | Device broadcasts to verify no one else is using its chosen APIPA address |
+| Link-local | Another name for APIPA; local subnet only; not routable |
+
+---
+
+> 📚 **Study Resource:** This document maps to **CompTIA A+ Core 1 (220-1201) Domain 2 — Networking**, covering IP configuration parameters, static vs. dynamic addressing, DHCP reservations, and APIPA / link-local address behavior.

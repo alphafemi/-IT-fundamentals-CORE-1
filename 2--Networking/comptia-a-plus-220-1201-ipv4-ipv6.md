@@ -1,0 +1,180 @@
+# CompTIA A+ 220-1201 — IPv4 & IPv6 Addressing
+
+> **Exam Domain Reference** | Core 1 (220-1201) — Networking (Domain 2)  
+> Topics: IPv4 structure, private address ranges (RFC 1918), NAT, IPv6 structure, address shortening, subnetting basics
+
+---
+
+## Table of Contents
+
+1. [IPv4 — IP Version 4](#ipv4--ip-version-4)
+   - [Address Structure](#address-structure)
+   - [Address Exhaustion & NAT](#address-exhaustion--nat)
+   - [RFC 1918 — Private Address Ranges](#rfc-1918--private-address-ranges)
+2. [IPv6 — IP Version 6](#ipv6--ip-version-6)
+   - [Why IPv6 Was Created](#why-ipv6-was-created)
+   - [Address Structure](#address-structure-1)
+   - [IPv6 Subnetting Basics](#ipv6-subnetting-basics)
+3. [IPv4 vs. IPv6 Comparison](#ipv4-vs-ipv6-comparison)
+4. [Key Takeaways](#key-takeaways)
+
+---
+
+## IPv4 — IP Version 4
+
+### Address Structure
+
+An IPv4 address is a **32-bit** value, written in **dotted decimal** notation — four decimal numbers separated by periods.
+
+```
+192  .  168  .  1  .  131
+ ↑        ↑      ↑     ↑
+Octet 1  Oct 2  Oct 3  Oct 4
+(8 bits each × 4 = 32 bits total)
+```
+
+**Key facts:**
+- Each group is called an **octet** — 8 bits (1 byte)
+- Each octet can range from **0 to 255**
+- 4 octets × 8 bits = **32 bits total** = **4 bytes**
+- Total unique IPv4 addresses: **~4.29 billion**
+
+In binary:
+```
+192       .  168      .  1        .  131
+11000000  .  10101000 .  00000001 .  10000011
+```
+
+### Address Exhaustion & NAT
+
+With over **20 billion devices** connected to the internet — and growing — there are not enough public IPv4 addresses for every device to have one.
+
+**Solution: NAT (Network Address Translation)**
+
+- An organization gets **one public IP address** for its internet connection
+- Inside the organization, hundreds or thousands of devices use **private IP addresses**
+- When a private device needs to communicate on the internet, NAT translates its private address to the organization's single public address
+- **Private addresses are never routed on the public internet** — they don't consume the global IPv4 pool
+
+```
+Internet (Public IPs)
+        │
+  [Public IP: 203.0.113.5]
+        │
+    [Router/NAT]
+        │
+  ┌─────────────────────┐
+  │  Private Network    │
+  │  10.0.0.1           │
+  │  10.0.0.2           │
+  │  10.0.0.3  ...      │
+  └─────────────────────┘
+```
+
+### RFC 1918 — Private Address Ranges
+
+RFC (Request for Comments) 1918 defines three reserved private IP address ranges. These can be used freely on internal networks but are **not routable on the public internet**.
+
+| Range | CIDR | Total Addresses | Common Use |
+|---|---|---|---|
+| `10.0.0.0` – `10.255.255.255` | 10.0.0.0/8 | ~16.7 million | Large corporate networks |
+| `172.16.0.0` – `172.31.255.255` | 172.16.0.0/12 | ~1 million | Medium networks |
+| `192.168.0.0` – `192.168.255.255` | 192.168.0.0/16 | ~65,000 | Home and small office networks |
+
+> **Exam Tip:** Memorize all three RFC 1918 ranges. If you see an address starting with `10.`, `172.16–31.`, or `192.168.`, it is a **private address**.
+
+---
+
+## IPv6 — IP Version 6
+
+### Why IPv6 Was Created
+
+IPv4 address exhaustion was the primary driver for creating IPv6. The solution: make the address space dramatically larger.
+
+| Version | Bits | Total Addresses |
+|---|---|---|
+| IPv4 | 32 | ~4.29 billion |
+| IPv6 | 128 | ~340 undecillion (3.4 × 10³⁸) |
+
+340 undecillion addresses means every person on Earth could have billions of unique addresses — effectively eliminating address exhaustion permanently.
+
+### Address Structure
+
+IPv6 addresses are **128 bits** long, written in **hexadecimal** with groups separated by colons.
+
+**Full form:**
+```
+fe80:0000:0000:0000:5d18:0652:cffd:8f52
+```
+
+**Rules for shortening IPv6 addresses:**
+1. **Leading zeros** in any group can be omitted:
+   `0000` → `0`, `0652` → `652`
+2. **One consecutive run** of all-zero groups can be replaced with `::` (double colon):
+   `fe80:0000:0000:0000:5d18:...` → `fe80::5d18:652:cffd:8f52`
+
+> **Important:** `::` can only be used **once** in an address — otherwise the address becomes ambiguous.
+
+**Structure breakdown:**
+```
+fe80:0000:0000:0000 : 5d18:0652:cffd:8f52
+└──── 64 bits ─────   └──── 64 bits ──────
+  Network Prefix            Host ID
+```
+
+Each block is **16 bits** (2 octets), displayed in hexadecimal. Eight blocks × 16 bits = **128 bits total** = **16 bytes**.
+
+**Why hexadecimal?**
+Displaying 128 bits in decimal would produce unwieldy numbers. Hex compresses 4 bits into one character, making the address far more readable.
+
+### IPv6 Subnetting Basics
+
+Because IPv6 has an enormous address space, traditional subnetting (used heavily with IPv4) is largely unnecessary.
+
+**Default convention:**
+- First **64 bits** = **Network prefix**
+- Last **64 bits** = **Host ID**
+- Default subnet mask = **/64**
+
+This gives every network **2⁶⁴ possible hosts** — more than enough for any conceivable deployment.
+
+**DNS becomes critical with IPv6** — memorizing a 128-bit hexadecimal address is impractical. Fully qualified domain names (resolved by DNS) are used instead.
+
+---
+
+## IPv4 vs. IPv6 Comparison
+
+| Feature | IPv4 | IPv6 |
+|---|---|---|
+| Address length | 32 bits | 128 bits |
+| Notation | Dotted decimal (0–255 per octet) | Hexadecimal with colons |
+| Total addresses | ~4.29 billion | ~340 undecillion |
+| Group name | Octet (8 bits) | Block / group (16 bits) |
+| Address exhaustion | Yes — resolved via NAT | No |
+| Private ranges | RFC 1918 (3 ranges) | Link-local, unique local |
+| Subnetting | Commonly used | Rarely needed (default /64) |
+| DNS dependency | Helpful | Critical — addresses too long to memorize |
+| Default subnet | Varies | /64 |
+
+---
+
+## Key Takeaways
+
+| Topic | Key Fact |
+|---|---|
+| IPv4 | 32-bit; dotted decimal; 4 octets of 0–255 |
+| IPv4 address space | ~4.29 billion total addresses |
+| RFC 1918 | Defines private ranges: 10.x.x.x / 172.16–31.x.x / 192.168.x.x |
+| NAT | Translates private IPs to one public IP; conserves IPv4 address space |
+| 10.0.0.0/8 | Largest private range; ~16.7 million addresses; common in enterprises |
+| 172.16.0.0/12 | Mid-size private range; ~1 million addresses |
+| 192.168.0.0/16 | Home/small office range; ~65,000 addresses |
+| IPv6 | 128-bit; hexadecimal with colons; 340 undecillion addresses |
+| IPv6 shortening | Drop leading zeros; replace one run of zeros with `::` |
+| IPv6 block size | 16 bits per block; 8 blocks = 128 bits total |
+| IPv6 default subnet | /64 — first 64 bits = network, last 64 bits = host |
+| IPv6 + DNS | DNS is essential — IPv6 addresses are too long to memorize |
+
+---
+
+> 📚 **Study Resource:** This document maps to **CompTIA A+ Core 1 (220-1201) Domain 2 — Networking**, covering IPv4 and IPv6 addressing, private address ranges, NAT, and the structural differences between the two IP versions.
