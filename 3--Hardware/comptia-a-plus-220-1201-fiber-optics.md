@@ -1,0 +1,155 @@
+# CompTIA A+ 220-1201 — Fiber Optic Cables
+
+> **Exam Domain Reference** | Core 1 (220-1201) — Networking (Domain 2)  
+> Topics: Fiber optic construction, multimode vs. single-mode fiber, connectors, light sources
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Fiber Optic Cable Construction](#fiber-optic-cable-construction)
+3. [Multimode Fiber (MMF)](#multimode-fiber-mmf)
+4. [Single-Mode Fiber (SMF)](#single-mode-fiber-smf)
+5. [Multimode vs. Single-Mode Comparison](#multimode-vs-single-mode-comparison)
+6. [Fiber Optic Connectors](#fiber-optic-connectors)
+7. [Advantages & Limitations of Fiber](#advantages--limitations-of-fiber)
+8. [Key Takeaways](#key-takeaways)
+
+---
+
+## Overview
+
+Fiber optic cables transmit data as **pulses of light** through a thin glass or plastic strand, rather than using electrical signals over copper. This fundamental difference gives fiber optics unique performance and environmental advantages — at the cost of higher complexity and expense.
+
+---
+
+## Fiber Optic Cable Construction
+
+From inside to outside, a fiber optic cable consists of:
+
+```
+[ Light Source ] → [ Core ] → [ Cladding ] → [ Buffer Coating ] → [ Jacket ]
+```
+
+| Layer | Material | Function |
+|---|---|---|
+| **Core** | Glass or plastic | The path light travels through; high refractive index |
+| **Cladding** | Glass or plastic | Surrounds the core; low refractive index — causes light to reflect back inward |
+| **Buffer coating** | Plastic | Protects the fragile core and cladding from physical damage |
+| **Jacket** | Outer plastic | Protects the entire cable from environmental damage |
+
+**How light travels:** Because the core has a higher refractive index than the cladding, light bounces back and forth (total internal reflection) along the core from one end to the other — similar to a mirror-lined tube.
+
+**Ferrule:** The end of a fiber connector contains a precision-engineered **ceramic ferrule** that holds and protects the fiber. The actual fiber is the tiny dot visible in the center of the ferrule face.
+
+---
+
+## Multimode Fiber (MMF)
+
+Multimode fiber has a **larger core diameter**, allowing light to travel in **multiple paths (modes)** simultaneously through the fiber.
+
+| Feature | Detail |
+|---|---|
+| Core size | Larger (typically 50 or 62.5 microns) |
+| Light source | **LED** (inexpensive) |
+| Typical max distance | ~**2 kilometers** |
+| Common use | **Short-range** — inside buildings, between nearby equipment |
+| Cost | Lower cost than single-mode |
+
+**Why multiple modes?** Light enters the large core at slightly different angles, each taking a slightly different path to the other end. This works fine for short distances but causes **modal dispersion** (signal spreading) over longer runs, which limits distance.
+
+---
+
+## Single-Mode Fiber (SMF)
+
+Single-mode fiber has a **much narrower core**, allowing only **one path (mode)** of light through the fiber.
+
+| Feature | Detail |
+|---|---|
+| Core size | Very small (typically ~9 microns) |
+| Light source | **Laser** (more powerful, more expensive) |
+| Typical max distance | **Kilometers** — some standards reach tens of km |
+| Common use | **Long-range** — between buildings, campus runs, WAN links |
+| Cost | Higher cost than multimode |
+
+**Why single mode for long distances?** With only one light path, there is no modal dispersion. Combined with a laser light source, the signal can travel much farther without degradation.
+
+---
+
+## Multimode vs. Single-Mode Comparison
+
+| Feature | Multimode (MMF) | Single-Mode (SMF) |
+|---|---|---|
+| Core diameter | Large (~50–62.5 µm) | Small (~9 µm) |
+| Light paths | Multiple | Single |
+| Light source | LED | Laser |
+| Max distance | ~2 km | Many kilometers |
+| Typical use | Inside buildings | Between buildings, WAN |
+| Cost | Lower | Higher |
+| Signal regeneration | Needed at shorter intervals | Can go farther without repeating |
+
+> **Exam Tip:** Multimode = Multiple paths, LED, short distance. Single-mode = Single path, Laser, Long distance. The "M" in multiMode = Many paths; the "S" in Single-mode = one (Single) path.
+
+---
+
+## Fiber Optic Connectors
+
+Fiber connectors align the fiber cores precisely so light can pass cleanly from one cable or device to another. The ceramic **ferrule** at the tip of the connector holds the fiber in precise alignment.
+
+**Common fiber connectors:**
+
+| Connector | Shape | Notes |
+|---|---|---|
+| **LC** | Small square; duplex clip | Most common in data centers; small form factor |
+| **SC** | Larger square; push-pull | Common in telecom; easy to use |
+| **ST** | Round; bayonet twist-lock | Older; still found in some legacy installations |
+| **FC** | Round; threaded | High-vibration environments |
+| **MT-RJ** | Small; duplex (both fibers in one connector) | Compact duplex |
+
+> **Note:** Fiber connectors come in **PC (Physical Contact)**, **UPC (Ultra Physical Contact)**, and **APC (Angled Physical Contact)** polish types — APC connectors are typically green; UPC are typically blue. These affect signal reflection at the connection point.
+
+---
+
+## Advantages & Limitations of Fiber
+
+### Advantages over Copper
+
+| Advantage | Detail |
+|---|---|
+| No EMI/RFI interference | Light is immune to electromagnetic and radio frequency interference |
+| Much longer distances | Single-mode can run many kilometers without signal regeneration |
+| Harder to tap | Difficult to intercept without physical access and specialized equipment |
+| High bandwidth | Supports very high data rates |
+| Ideal for industrial environments | Not affected by heavy electrical equipment nearby |
+
+### Limitations
+
+| Limitation | Detail |
+|---|---|
+| Higher cost | Cable, transceivers, and connectors are more expensive than copper |
+| Specialized equipment needed | Requires optical transceivers, specialized test equipment |
+| Fragile | The glass core can crack if bent sharply or stressed |
+| Difficult to splice/repair | Splicing fiber requires precision equipment and skill |
+| Monitoring complexity | Tapping fiber requires specialized optical splitters |
+
+---
+
+## Key Takeaways
+
+| Topic | Key Fact |
+|---|---|
+| Fiber optics | Transmits data as light; immune to EMI/RFI |
+| Core | High refractive index; path for light |
+| Cladding | Low refractive index; reflects light back into core |
+| Buffer coating | Protects the fragile core and cladding |
+| Ferrule | Ceramic tip of connector; holds fiber in precise alignment |
+| Multimode (MMF) | Large core; LED; multiple light paths; ~2 km max; short range |
+| Single-mode (SMF) | Small core; laser; single light path; many km; long range |
+| LED | Light source for multimode; inexpensive |
+| Laser | Light source for single-mode; more powerful; expensive |
+| Fiber vs. copper | No interference; longer distances; higher cost; harder to tap |
+
+---
+
+> 📚 **Study Resource:** This document maps to **CompTIA A+ Core 1 (220-1201) Domain 2 — Networking**, covering fiber optic cable construction, multimode vs. single-mode fiber, light sources, and connector types.
