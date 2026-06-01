@@ -5,18 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Memory Error Detection & Correction](#memory-error-detection--correction)
-   - [Standard Memory](#standard-memory)
-   - [Parity Memory](#parity-memory)
-   - [ECC — Error Correction Code](#ecc--error-correction-code)
-2. [How Parity Works](#how-parity-works)
-3. [Memory Bandwidth — MT/s](#memory-bandwidth--mts)
-4. [Multichannel Memory](#multichannel-memory)
-5. [Key Takeaways](#key-takeaways)
-
----
 
 ## Memory Error Detection & Correction
 
