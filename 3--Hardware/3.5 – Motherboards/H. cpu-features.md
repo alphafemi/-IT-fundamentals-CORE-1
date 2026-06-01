@@ -5,15 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [32-bit vs. 64-bit Processors](#32-bit-vs-64-bit-processors)
-2. [Application & Driver Compatibility](#application--driver-compatibility)
-3. [ARM Architecture](#arm-architecture)
-4. [CPU Cores](#cpu-cores)
-5. [Key Takeaways](#key-takeaways)
-
----
 
 ## 32-bit vs. 64-bit Processors
 
