@@ -5,16 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Overview](#overview)
-2. [ATX — Advanced Technology Extended](#atx--advanced-technology-extended)
-3. [Micro-ATX](#micro-atx)
-4. [Mini-ITX](#mini-itx)
-5. [Form Factor Comparison](#form-factor-comparison)
-6. [Key Takeaways](#key-takeaways)
-
----
 
 ## Overview
 
