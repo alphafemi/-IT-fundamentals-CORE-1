@@ -5,15 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Sound Cards](#sound-cards)
-3. [Video Adapters (GPU)](#video-adapters-gpu)
-4. [Capture Cards](#capture-cards)
-5. [Network Interface Cards (NIC)](#network-interface-cards-nic)
-6. [Driver Installation Best Practices](#driver-installation-best-practices)
-7. [Key Takeaways](#key-takeaways)
 
 ---
 
