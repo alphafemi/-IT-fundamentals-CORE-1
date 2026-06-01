@@ -5,24 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Storage vs. Memory](#storage-vs-memory)
-2. [Hard Disk Drives (HDD)](#hard-disk-drives-hdd)
-3. [Solid State Drives (SSD)](#solid-state-drives-ssd)
-4. [Storage Interfaces & Speed](#storage-interfaces--speed)
-   - [SATA / AHCI](#sata--ahci)
-   - [NVMe & PCIe](#nvme--pcie)
-   - [SAS — Serial Attached SCSI](#sas--serial-attached-scsi)
-5. [Form Factors](#form-factors)
-   - [mSATA](#msata)
-   - [M.2](#m2)
-6. [Flash Storage](#flash-storage)
-7. [Optical Drives](#optical-drives)
-8. [Storage Speed Comparison](#storage-speed-comparison)
-9. [Key Takeaways](#key-takeaways)
-
----
 
 ## Storage vs. Memory
 
