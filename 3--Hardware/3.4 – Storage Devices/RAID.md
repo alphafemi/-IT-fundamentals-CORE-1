@@ -5,18 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [What Is RAID?](#what-is-raid)
-2. [RAID 0 — Striping](#raid-0--striping)
-3. [RAID 1 — Mirroring](#raid-1--mirroring)
-4. [RAID 5 — Striping with Parity](#raid-5--striping-with-parity)
-5. [RAID 6 — Striping with Double Parity](#raid-6--striping-with-double-parity)
-6. [RAID 10 (RAID 1+0) — Stripe of Mirrors](#raid-10-raid-10--stripe-of-mirrors)
-7. [RAID Comparison Table](#raid-comparison-table)
-8. [Key Takeaways](#key-takeaways)
-
----
 
 ## What Is RAID?
 
