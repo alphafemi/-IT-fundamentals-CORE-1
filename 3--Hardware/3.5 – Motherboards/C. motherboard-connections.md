@@ -5,17 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Main Power Connector](#main-power-connector)
-2. [PCIe Supplemental Power Connectors](#pcie-supplemental-power-connectors)
-3. [SATA Data Connectors](#sata-data-connectors)
-4. [M.2 Connector](#m2-connector)
-5. [Pin Headers](#pin-headers)
-6. [Connector Quick Reference](#connector-quick-reference)
-7. [Key Takeaways](#key-takeaways)
-
----
 
 ## Main Power Connector
 
