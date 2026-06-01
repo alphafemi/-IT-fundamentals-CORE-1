@@ -5,16 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [What RAM Is (and Isn't)](#what-ram-is-and-isnt)
-2. [DIMM — Dual Inline Memory Module](#dimm--dual-inline-memory-module)
-3. [SO-DIMM — Laptop Memory](#so-dimm--laptop-memory)
-4. [SDRAM & Double Data Rate (DDR)](#sdram--double-data-rate-ddr)
-5. [DDR Versions](#ddr-versions)
-6. [Physical Keying & Compatibility](#physical-keying--compatibility)
-7. [Key Takeaways](#key-takeaways)
-
 ---
 
 ## What RAM Is (and Isn't)
