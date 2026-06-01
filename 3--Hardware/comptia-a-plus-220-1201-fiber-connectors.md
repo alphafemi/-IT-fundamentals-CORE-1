@@ -1,0 +1,94 @@
+# CompTIA A+ 220-1201 — Fiber Optic Connectors
+
+> **Exam Domain Reference** | Core 1 (220-1201) — Networking (Domain 2)  
+> Topics: ST, SC, LC fiber connectors — locking mechanisms, sizes, use cases
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [ST — Straight Tip](#st--straight-tip)
+3. [SC — Subscriber Connector](#sc--subscriber-connector)
+4. [LC — Lucent Connector](#lc--lucent-connector)
+5. [Connector Comparison](#connector-comparison)
+6. [Key Takeaways](#key-takeaways)
+
+---
+
+## Overview
+
+Fiber optic cables require specialized connectors that precisely align the thin glass fiber cores for maximum signal transmission. Three connector types appear most frequently on the A+ exam: **ST**, **SC**, and **LC**. Each uses a different locking mechanism and comes in a different physical size.
+
+All three connectors protect the fiber inside a **ceramic ferrule** and accomplish the same goal — connecting and disconnecting fiber runs reliably. The key differences are size and how they lock.
+
+---
+
+## ST — Straight Tip
+
+- **Full name:** Straight Tip
+- **Locking mechanism:** **Bayonet** — push in and twist slightly to lock; twist back and pull to remove
+- **Size:** Largest of the three common fiber connectors
+- **Retention:** The bayonet lock prevents accidental disconnection
+- **Common use:** Older installations; patch panels; networking equipment
+
+The "straight tip" refers to the cylindrical ferrule at the end of the connector. The bayonet function — similar to how a bayonet-mount camera lens attaches — is a push-and-turn action.
+
+---
+
+## SC — Subscriber Connector
+
+- **Full name:** Subscriber Connector (also called Square Connector or Standard Connector)
+- **Locking mechanism:** **Push/pull latch** — push in to connect; pull the outer sleeve to release
+- **Size:** Medium — smaller than ST, larger than LC
+- **Duplex option:** Two SC connectors can be joined side by side as a single duplex unit, connecting send and receive simultaneously
+- **Common use:** Data centers, patch panels, networking devices — very widely deployed
+
+The SC connector's push-pull design makes it fast and easy to connect and disconnect. The duplex form factor is convenient when you need to manage both fibers of a connection as a single unit.
+
+---
+
+## LC — Lucent Connector
+
+- **Full name:** Lucent Connector (also called Local Connector or Little Connector)
+- **Locking mechanism:** **Clip/tab** — a small plastic tab on top of the connector snaps into place; squeeze the tab to release
+- **Size:** Smallest of the three — roughly half the size of an SC
+- **Duplex option:** Two LC connectors are commonly paired together, allowing simultaneous connection of send and receive
+- **Common use:** High-density environments; SFP (Small Form-factor Pluggable) transceivers in switches and routers; modern data centers
+
+The LC's compact size allows more fiber connections to fit in the same panel or device space — critical in high-density data center environments.
+
+---
+
+## Connector Comparison
+
+| Connector | Full Name(s) | Locking Method | Relative Size | Common Use |
+|---|---|---|---|---|
+| **ST** | Straight Tip | Bayonet (push + twist) | Largest | Older infrastructure, patch panels |
+| **SC** | Subscriber / Square / Standard Connector | Push/pull latch | Medium | Data centers, patch panels, widely used |
+| **LC** | Lucent / Local / Little Connector | Clip/tab | Smallest | High-density, SFP modules, modern DCs |
+
+**Size order (largest to smallest):** ST > SC > LC
+
+**All three:**
+- Use a ceramic ferrule to protect and align the fiber
+- Are available in both single-mode and multimode versions
+- Come in duplex (paired) form factors for SC and LC
+- Must match the connector type on the device being connected to
+
+---
+
+## Key Takeaways
+
+| Topic | Key Fact |
+|---|---|
+| ST | Straight Tip; bayonet locking (push + twist); largest; older installations |
+| SC | Subscriber/Square/Standard Connector; push/pull latch; medium size; widely used |
+| LC | Lucent/Local/Little Connector; clip tab; smallest; high-density/SFP modules |
+| Size order | ST > SC > LC |
+| Duplex | SC and LC commonly available as duplex pairs (send + receive in one unit) |
+| Connector matching | Connectors on both ends of a fiber run must be the same type |
+
+---
+
+> 📚 **Study Resource:** This document maps to **CompTIA A+ Core 1 (220-1201) Domain 2 — Networking**, covering fiber optic connector types (ST, SC, LC), their locking mechanisms, and typical use cases.
