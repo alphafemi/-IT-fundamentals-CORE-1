@@ -5,20 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Why Cooling Matters](#why-cooling-matters)
-2. [Active Cooling — Fans](#active-cooling--fans)
-3. [Passive Cooling](#passive-cooling)
-4. [Heat Sinks](#heat-sinks)
-5. [Thermal Interface Materials](#thermal-interface-materials)
-   - [Thermal Paste](#thermal-paste)
-   - [Thermal Pads](#thermal-pads)
-6. [Liquid Cooling](#liquid-cooling)
-7. [Cooling Method Comparison](#cooling-method-comparison)
-8. [Key Takeaways](#key-takeaways)
-
----
 
 ## Why Cooling Matters
 
