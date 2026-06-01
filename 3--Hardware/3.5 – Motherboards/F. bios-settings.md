@@ -5,21 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Accessing the BIOS](#accessing-the-bios)
-2. [Boot Order Configuration](#boot-order-configuration)
-3. [USB Configuration](#usb-configuration)
-4. [Fan & Cooling Settings](#fan--cooling-settings)
-5. [Secure Boot](#secure-boot)
-6. [BIOS Passwords](#bios-passwords)
-7. [CMOS & BIOS Storage](#cmos--bios-storage)
-8. [Resetting the BIOS](#resetting-the-bios)
-9. [Temperature Monitoring](#temperature-monitoring)
-10. [Virtualization Settings](#virtualization-settings)
-11. [Key Takeaways](#key-takeaways)
-
----
 
 ## Accessing the BIOS
 
