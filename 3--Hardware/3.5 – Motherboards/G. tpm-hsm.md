@@ -5,18 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Why Hardware Encryption Matters](#why-hardware-encryption-matters)
-2. [TPM — Trusted Platform Module](#tpm--trusted-platform-module)
-   - [What's Inside a TPM](#whats-inside-a-tpm)
-   - [What TPM Enables](#what-tpm-enables)
-   - [TPM in the BIOS](#tpm-in-the-bios)
-3. [HSM — Hardware Security Module](#hsm--hardware-security-module)
-4. [TPM vs. HSM Comparison](#tpm-vs-hsm-comparison)
-5. [Key Takeaways](#key-takeaways)
-
----
 
 ## Why Hardware Encryption Matters
 
