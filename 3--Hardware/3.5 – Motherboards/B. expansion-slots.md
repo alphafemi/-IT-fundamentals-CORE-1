@@ -5,16 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [The Computer Bus](#the-computer-bus)
-2. [PCI — Peripheral Component Interconnect](#pci--peripheral-component-interconnect)
-3. [PCI Express (PCIe)](#pci-express-pcie)
-4. [PCI vs. PCIe Comparison](#pci-vs-pcie-comparison)
-5. [Installing & Removing Expansion Cards](#installing--removing-expansion-cards)
-6. [Key Takeaways](#key-takeaways)
-
----
 
 ## The Computer Bus
 
