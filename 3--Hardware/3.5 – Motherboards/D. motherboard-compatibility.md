@@ -5,15 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Intel vs. AMD CPUs](#intel-vs-amd-cpus)
-2. [CPU Socket Compatibility](#cpu-socket-compatibility)
-3. [Installing a CPU](#installing-a-cpu)
-4. [Server Motherboards](#server-motherboards)
-5. [Key Takeaways](#key-takeaways)
-
----
 
 ## Intel vs. AMD CPUs
 
