@@ -5,17 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [What Is the BIOS?](#what-is-the-bios)
-2. [POST — Power-On Self-Test](#post--power-on-self-test)
-3. [Where BIOS Is Stored](#where-bios-is-stored)
-4. [Legacy BIOS](#legacy-bios)
-5. [UEFI — Unified Extensible Firmware Interface](#uefi--unified-extensible-firmware-interface)
-6. [Legacy BIOS vs. UEFI Comparison](#legacy-bios-vs-uefi-comparison)
-7. [Key Takeaways](#key-takeaways)
-
----
 
 ## What Is the BIOS?
 
