@@ -5,18 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [How Inkjet Printers Work](#how-inkjet-printers-work)
-2. [Ink Cartridges & Colors (CMYK)](#ink-cartridges--colors-cmyk)
-3. [Print Heads](#print-heads)
-4. [Feed Rollers](#feed-rollers)
-5. [Carriage & Belt](#carriage--belt)
-6. [Calibration](#calibration)
-7. [Inkjet vs. Laser Comparison](#inkjet-vs-laser-comparison)
-8. [Key Takeaways](#key-takeaways)
-
----
 
 ## How Inkjet Printers Work
 
