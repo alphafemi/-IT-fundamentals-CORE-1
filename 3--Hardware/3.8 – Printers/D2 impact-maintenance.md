@@ -5,14 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Ribbon Replacement](#ribbon-replacement)
-2. [Print Head Replacement](#print-head-replacement)
-3. [Paper Replacement & Alignment](#paper-replacement--alignment)
-4. [Key Takeaways](#key-takeaways)
-
----
 
 ## Ribbon Replacement
 
