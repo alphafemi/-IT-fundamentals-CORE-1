@@ -7,19 +7,7 @@
 
 ---
 
-## Table of Contents
 
-1. [AC vs. DC Power](#ac-vs-dc-power)
-2. [Electrical Fundamentals](#electrical-fundamentals)
-3. [PSU Voltages — Input & Output](#psu-voltages--input--output)
-4. [The 24-Pin Main Power Connector](#the-24-pin-main-power-connector)
-5. [Modular vs. Fixed PSUs](#modular-vs-fixed-psus)
-6. [Redundant Power Supplies (Servers)](#redundant-power-supplies-servers)
-7. [Sizing a Power Supply](#sizing-a-power-supply)
-8. [80 PLUS Efficiency Ratings](#80-plus-efficiency-ratings)
-9. [Key Takeaways](#key-takeaways)
-
----
 
 ## AC vs. DC Power
 
