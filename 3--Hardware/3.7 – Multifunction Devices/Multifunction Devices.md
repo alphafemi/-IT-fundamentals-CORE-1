@@ -5,20 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Multifunction Devices (MFDs)](#multifunction-devices-mfds)
-2. [Printer Drivers](#printer-drivers)
-3. [Page Description Languages](#page-description-languages)
-4. [Firmware](#firmware)
-5. [Connectivity Options](#connectivity-options)
-6. [Printer Sharing & Print Servers](#printer-sharing--print-servers)
-7. [Print Settings](#print-settings)
-8. [Security — Badging, PIN Printing & Auditing](#security--badging-pin-printing--auditing)
-9. [Scanning](#scanning)
-10. [Key Takeaways](#key-takeaways)
-
----
 
 ## Multifunction Devices (MFDs)
 
