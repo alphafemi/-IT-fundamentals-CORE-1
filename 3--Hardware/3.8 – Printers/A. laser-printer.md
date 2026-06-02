@@ -5,16 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [How a Laser Printer Works](#how-a-laser-printer-works)
-2. [Toner Cartridge](#toner-cartridge)
-3. [Maintenance Kit](#maintenance-kit)
-4. [Calibration](#calibration)
-5. [Cleaning & Safety](#cleaning--safety)
-6. [Key Takeaways](#key-takeaways)
-
----
 
 ## How a Laser Printer Works
 
