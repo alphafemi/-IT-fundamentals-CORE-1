@@ -5,15 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Print Head Cleaning](#print-head-cleaning)
-2. [Cartridge Replacement](#cartridge-replacement)
-3. [Calibration](#calibration)
-4. [Clearing Paper Jams](#clearing-paper-jams)
-5. [Key Takeaways](#key-takeaways)
-
----
 
 ## Print Head Cleaning
 
