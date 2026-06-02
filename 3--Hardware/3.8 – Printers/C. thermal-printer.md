@@ -5,16 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [How Thermal Printers Work](#how-thermal-printers-work)
-2. [Feed Assembly](#feed-assembly)
-3. [Heating Element](#heating-element)
-4. [Thermal Paper (Thermochromic Paper)](#thermal-paper-thermochromic-paper)
-5. [Thermal Printer Handling Considerations](#thermal-printer-handling-considerations)
-6. [Key Takeaways](#key-takeaways)
-
----
 
 ## How Thermal Printers Work
 
