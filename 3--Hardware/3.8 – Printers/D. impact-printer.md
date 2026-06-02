@@ -5,17 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [How Impact (Dot-Matrix) Printers Work](#how-impact-dot-matrix-printers-work)
-2. [Print Head](#print-head)
-3. [Printer Ribbon](#printer-ribbon)
-4. [Tractor Feed & Paper](#tractor-feed--paper)
-5. [Multipart Paper](#multipart-paper)
-6. [Advantages & Disadvantages](#advantages--disadvantages)
-7. [Key Takeaways](#key-takeaways)
-
----
 
 ## How Impact (Dot-Matrix) Printers Work
 
