@@ -5,17 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Internal vs. External Cloud](#internal-vs-external-cloud)
-2. [Metered Utilization](#metered-utilization)
-3. [Elasticity](#elasticity)
-4. [Availability & Redundancy](#availability--redundancy)
-5. [File Synchronization](#file-synchronization)
-6. [Multitenancy](#multitenancy)
-7. [Key Takeaways](#key-takeaways)
-
----
 
 ## Internal vs. External Cloud
 
