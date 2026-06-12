@@ -5,18 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [The Hypervisor](#the-hypervisor)
-2. [Type 1 vs. Type 2 Hypervisors](#type-1-vs-type-2-hypervisors)
-3. [CPU Virtualization Support](#cpu-virtualization-support)
-4. [VM Resource Requirements](#vm-resource-requirements)
-5. [VM Networking Modes](#vm-networking-modes)
-6. [VM Security](#vm-security)
-7. [VDI — Virtual Desktop Infrastructure](#vdi--virtual-desktop-infrastructure)
-8. [Containerization](#containerization)
-9. [VMs vs. Containers](#vms-vs-containers)
-10. [Key Takeaways](#key-takeaways)
 
 ---
 
