@@ -5,18 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [What Is Virtualization?](#what-is-virtualization)
-2. [Host-Based vs. Enterprise Virtualization](#host-based-vs-enterprise-virtualization)
-3. [Virtual Machine (VM) Use Cases](#virtual-machine-vm-use-cases)
-   - [Sandboxing & Development](#sandboxing--development)
-   - [Legacy Software Support](#legacy-software-support)
-   - [Cross-Platform Virtualization](#cross-platform-virtualization)
-4. [Snapshots](#snapshots)
-5. [Key Takeaways](#key-takeaways)
-
----
 
 ## What Is Virtualization?
 
