@@ -5,21 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [No Signal / Black Screen](#no-signal--black-screen)
-2. [LCD Projector Bulb Issues](#lcd-projector-bulb-issues)
-3. [Fuzzy / Incorrect Resolution](#fuzzy--incorrect-resolution)
-4. [Burn-In / Image Sticking](#burn-in--image-sticking)
-5. [Dead Pixels](#dead-pixels)
-6. [Flashing / Flickering Screen](#flashing--flickering-screen)
-7. [Incorrect Colors](#incorrect-colors)
-8. [No Audio from Monitor](#no-audio-from-monitor)
-9. [Dim Display](#dim-display)
-10. [Display Scaling Issues](#display-scaling-issues)
-11. [Extensive Screen Artifacts / Lines](#extensive-screen-artifacts--lines)
-12. [Troubleshooting Quick Reference](#troubleshooting-quick-reference)
-13. [Key Takeaways](#key-takeaways)
 
 ---
 
