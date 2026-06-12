@@ -5,19 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Network Connectivity Troubleshooting Steps](#network-connectivity-troubleshooting-steps)
-2. [Limited or No Connectivity](#limited-or-no-connectivity)
-3. [Wireless Connectivity Issues](#wireless-connectivity-issues)
-4. [Jitter & VoIP Quality](#jitter--voip-quality)
-5. [Port Flapping](#port-flapping)
-6. [High Latency](#high-latency)
-7. [Wireless Interference & SNR](#wireless-interference--snr)
-8. [Authentication Issues](#authentication-issues)
-9. [Intermittent Connectivity Problems](#intermittent-connectivity-problems)
-10. [Troubleshooting Quick Reference](#troubleshooting-quick-reference)
-11. [Key Takeaways](#key-takeaways)
 
 ---
 
