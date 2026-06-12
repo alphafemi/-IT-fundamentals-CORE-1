@@ -5,20 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Read/Write Errors & Physical Drive Failure](#readwrite-errors--physical-drive-failure)
-2. [Drive Not Recognized / Boot Failures](#drive-not-recognized--boot-failures)
-3. [Data Loss & Corruption](#data-loss--corruption)
-4. [RAID Troubleshooting](#raid-troubleshooting)
-5. [S.M.A.R.T. Monitoring](#smart-monitoring)
-6. [IOPS — Storage Performance Measurement](#iops--storage-performance-measurement)
-7. [Missing Drive Letters (Network Drives)](#missing-drive-letters-network-drives)
-8. [Drive Controller Failure](#drive-controller-failure)
-9. [Troubleshooting Quick Reference](#troubleshooting-quick-reference)
-10. [Key Takeaways](#key-takeaways)
-
----
 
 ## Read/Write Errors & Physical Drive Failure
 
