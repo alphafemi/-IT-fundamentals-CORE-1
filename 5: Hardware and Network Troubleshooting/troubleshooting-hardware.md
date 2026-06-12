@@ -5,22 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [POST & Beep Codes](#post--beep-codes)
-2. [Blue Screen of Death (BSoD)](#blue-screen-of-death-bsod)
-3. [Proprietary & Application Error Messages](#proprietary--application-error-messages)
-4. [Blank / Black Screen](#blank--black-screen)
-5. [No Power](#no-power)
-6. [Sluggish Performance](#sluggish-performance)
-7. [Overheating & Random Shutdowns](#overheating--random-shutdowns)
-8. [Unusual Noises](#unusual-noises)
-9. [Capacitor Failure](#capacitor-failure)
-10. [CMOS Battery Failure](#cmos-battery-failure)
-11. [Troubleshooting Quick Reference](#troubleshooting-quick-reference)
-12. [Key Takeaways](#key-takeaways)
-
----
 
 ## POST & Beep Codes
 
