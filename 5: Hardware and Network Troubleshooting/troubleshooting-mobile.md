@@ -5,23 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Battery Issues](#battery-issues)
-2. [Swollen Battery](#swollen-battery)
-3. [Broken Screen](#broken-screen)
-4. [Improper Charging](#improper-charging)
-5. [Liquid Damage & LCI](#liquid-damage--lci)
-6. [Overheating](#overheating)
-7. [Unresponsive / Frozen Device](#unresponsive--frozen-device)
-8. [Damaged Ports (USB / Charging Interface)](#damaged-ports-usb--charging-interface)
-9. [Malware on Mobile Devices](#malware-on-mobile-devices)
-10. [Cursor Drift](#cursor-drift)
-11. [App Install Failures](#app-install-failures)
-12. [Stylus Issues](#stylus-issues)
-13. [Poor Performance / Slow Device](#poor-performance--slow-device)
-14. [Troubleshooting Quick Reference](#troubleshooting-quick-reference)
-15. [Key Takeaways](#key-takeaways)
 
 ---
 
