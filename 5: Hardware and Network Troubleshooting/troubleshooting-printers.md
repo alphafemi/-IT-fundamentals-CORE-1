@@ -5,23 +5,7 @@
 
 ---
 
-## Table of Contents
 
-1. [Starting Point — Print Test Pages](#starting-point--print-test-pages)
-2. [Bad Output Quality](#bad-output-quality)
-3. [Garbled / Corrupt Output](#garbled--corrupt-output)
-4. [Paper Jams](#paper-jams)
-5. [Paper Feed Issues](#paper-feed-issues)
-6. [Print Spooler Issues](#print-spooler-issues)
-7. [Grinding Noises](#grinding-noises)
-8. [Finishing Issues (Stapling, Hole Punch, Collating)](#finishing-issues-stapling-hole-punch-collating)
-9. [Wrong Orientation (Portrait / Landscape)](#wrong-orientation-portrait--landscape)
-10. [Paper Tray Issues](#paper-tray-issues)
-11. [Network Connectivity for Printers](#network-connectivity-for-printers)
-12. [Troubleshooting Quick Reference](#troubleshooting-quick-reference)
-13. [Key Takeaways](#key-takeaways)
-
----
 
 ## Starting Point — Print Test Pages
 
