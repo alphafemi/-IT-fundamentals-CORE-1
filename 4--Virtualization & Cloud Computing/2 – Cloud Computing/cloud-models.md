@@ -5,20 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [What Is Cloud Computing?](#what-is-cloud-computing)
-2. [Cloud Deployment Models](#cloud-deployment-models)
-   - [Public Cloud](#public-cloud)
-   - [Private Cloud](#private-cloud)
-   - [Hybrid Cloud](#hybrid-cloud)
-   - [Community Cloud](#community-cloud)
-3. [Cloud Service Models](#cloud-service-models)
-   - [IaaS — Infrastructure as a Service](#iaas--infrastructure-as-a-service)
-   - [PaaS — Platform as a Service](#paas--platform-as-a-service)
-   - [SaaS — Software as a Service](#saas--software-as-a-service)
-4. [Shared Responsibility Model](#shared-responsibility-model)
-5. [Key Takeaways](#key-takeaways)
 
 ---
 
